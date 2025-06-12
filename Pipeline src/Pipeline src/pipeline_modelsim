@@ -1,0 +1,74 @@
+# vsim tb 
+# Start time: 15:31:32 on Nov 03,2024
+# Loading work.tb
+# Loading work.Pipeline_top
+# Loading work.fetch_cycle
+# Loading work.Mux
+# Loading work.PC_Module
+# Loading work.Instruction_Memory
+# Loading work.PC_Adder
+# Loading work.decode_cycle
+# Loading work.Control_Unit_Top
+# Loading work.Main_Decoder
+# Loading work.ALU_Decoder
+# Loading work.Register_File
+# Loading work.Sign_Extend
+# Loading work.execute_cycle
+# Loading work.Mux_3_by_1
+# Loading work.ALU
+# Loading work.memory_cycle
+# Loading work.Data_Memory
+# Loading work.writeback_cycle
+# Loading work.hazard_unit
+add wave -position insertpoint  \
+sim:/tb/clk \
+sim:/tb/rst
+add wave -position insertpoint  \
+sim:/tb/dut/Fetch/PCSrcE \
+sim:/tb/dut/Fetch/PCTargetE \
+sim:/tb/dut/Fetch/InstrD \
+sim:/tb/dut/Fetch/PCD \
+sim:/tb/dut/Fetch/PCPlus4D
+add wave -position insertpoint  \
+sim:/tb/dut/Decode/RegWriteE \
+sim:/tb/dut/Decode/ALUSrcE \
+sim:/tb/dut/Decode/MemWriteE \
+sim:/tb/dut/Decode/ResultSrcE \
+sim:/tb/dut/Decode/BranchE \
+sim:/tb/dut/Decode/ALUControlE \
+sim:/tb/dut/Decode/RD1_E \
+sim:/tb/dut/Decode/RD2_E \
+sim:/tb/dut/Decode/Imm_Ext_E \
+sim:/tb/dut/Decode/RD_E \
+sim:/tb/dut/Decode/PCE \
+sim:/tb/dut/Decode/PCPlus4E
+add wave -position insertpoint  \
+sim:/tb/dut/Execute/RegWriteM \
+sim:/tb/dut/Execute/MemWriteM \
+sim:/tb/dut/Execute/ResultSrcM \
+sim:/tb/dut/Execute/RD_M \
+sim:/tb/dut/Execute/PCPlus4M \
+sim:/tb/dut/Execute/WriteDataM \
+sim:/tb/dut/Execute/ALU_ResultM \
+sim:/tb/dut/Execute/Src_A \
+sim:/tb/dut/Execute/Src_B
+add wave -position insertpoint  \
+sim:/tb/dut/Memory/ResultSrcW \
+sim:/tb/dut/Memory/PCPlus4W \
+sim:/tb/dut/Memory/ALU_ResultW \
+sim:/tb/dut/Memory/ReadDataW
+add wave -position insertpoint  \
+sim:/tb/dut/Memory/RegWriteW
+add wave -position insertpoint  \
+sim:/tb/dut/WriteBack/ResultW
+add wave -position insertpoint  \
+sim:/tb/dut/Decode/RDW
+add wave -position insertpoint  \
+sim:/tb/dut/Forwarding_block/RegWriteM \
+sim:/tb/dut/Forwarding_block/RegWriteW \
+sim:/tb/dut/Forwarding_block/RD_M \
+sim:/tb/dut/Forwarding_block/RD_W \
+sim:/tb/dut/Forwarding_block/Rs1_E \
+sim:/tb/dut/Forwarding_block/Rs2_E \
+sim:/tb/dut/Forwarding_block/ForwardAE \
+sim:/tb/dut/Forwarding_block/ForwardBE

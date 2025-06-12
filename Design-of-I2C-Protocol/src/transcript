@@ -1,0 +1,15 @@
+# vsim i2c_testbench 
+# Start time: 16:55:06 on Feb 05,2025
+# Loading sv_std.std
+# Loading work.i2c_testbench
+# Loading work.i2c_master
+# Loading work.i2c_slave
+do C:/Users/RAO/Desktop/Desktop/Design-of-I2C-Protocol/Design-of-I2C-Protocol/src/wave.do
+run -all
+# ** Note: $finish    : ./i2c_testbench.sv(76)
+#    Time: 510 ns  Iteration: 0  Instance: /i2c_testbench
+# 1
+# Break in Module i2c_testbench at ./i2c_testbench.sv line 76
+# WARNING: No extended dataflow license exists
+# End time: 16:58:37 on Feb 05,2025, Elapsed time: 0:03:31
+# Errors: 0, Warnings: 1

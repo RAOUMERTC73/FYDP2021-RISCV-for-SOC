@@ -1,0 +1,889 @@
+# do commands_fifo_i2c.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:44:39 on May 14,2025
+# vlog -reportprogress 300 fifo_i2c.sv 
+# -- Compiling module fifo_i2c
+# 
+# Top level modules:
+# 	fifo_i2c
+# End time: 22:44:39 on May 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:44:39 on May 14,2025
+# vlog -reportprogress 300 fifo_i2c_tb.sv 
+# -- Compiling module fifo_i2c_tb
+# 
+# Top level modules:
+# 	fifo_i2c_tb
+# End time: 22:44:39 on May 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim fifo_i2c_tb 
+# Start time: 22:44:39 on May 14,2025
+# Loading sv_std.std
+# Loading work.fifo_i2c_tb
+# Loading work.fifo_i2c
+# [TB] ---Test FAILED: Time: 45, data_out = 00, expected = a1---
+# [TB] ---Test FAILED: Time: 55, data_out = 00, expected = b2---
+# [TB] ---Test FAILED: Time: 65, data_out = b2, expected = c3---
+# [TB] ---Test FAILED: Time: 75, data_out = c3, expected = d4---
+# ** Note: $stop    : fifo_i2c_tb.sv(90)
+#    Time: 85 ps  Iteration: 1  Instance: /fifo_i2c_tb
+# Break in Module fifo_i2c_tb at fifo_i2c_tb.sv line 90
+# 0 ps
+# 89 ps
+# hexadecimal
+do commands_fifo_i2c.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:47:54 on May 14,2025
+# vlog -reportprogress 300 fifo_i2c.sv 
+# -- Compiling module fifo_i2c
+# 
+# Top level modules:
+# 	fifo_i2c
+# End time: 22:47:54 on May 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:47:54 on May 14,2025
+# vlog -reportprogress 300 fifo_i2c_tb.sv 
+# -- Compiling module fifo_i2c_tb
+# 
+# Top level modules:
+# 	fifo_i2c_tb
+# End time: 22:47:54 on May 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 22:47:57 on May 14,2025, Elapsed time: 0:03:18
+# Errors: 0, Warnings: 0
+# vsim fifo_i2c_tb 
+# Start time: 22:47:57 on May 14,2025
+# Loading sv_std.std
+# Loading work.fifo_i2c_tb
+# Loading work.fifo_i2c
+# [TB] ---Test PASSED: Time: 35, data_out = a1, expected = a1---
+# [TB] ---Test FAILED: Time: 45, data_out = a1, expected = b2---
+# [TB] ---Test FAILED: Time: 55, data_out = b2, expected = c3---
+# [TB] ---Test FAILED: Time: 65, data_out = c3, expected = d4---
+# ** Note: $stop    : fifo_i2c_tb.sv(90)
+#    Time: 75 ps  Iteration: 1  Instance: /fifo_i2c_tb
+# Break in Module fifo_i2c_tb at fifo_i2c_tb.sv line 90
+# 0 ps
+# 79 ps
+# hexadecimal
+do commands_fifo_i2c.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:49:03 on May 14,2025
+# vlog -reportprogress 300 fifo_i2c.sv 
+# -- Compiling module fifo_i2c
+# 
+# Top level modules:
+# 	fifo_i2c
+# End time: 22:49:03 on May 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:49:03 on May 14,2025
+# vlog -reportprogress 300 fifo_i2c_tb.sv 
+# -- Compiling module fifo_i2c_tb
+# 
+# Top level modules:
+# 	fifo_i2c_tb
+# End time: 22:49:03 on May 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 22:49:06 on May 14,2025, Elapsed time: 0:01:09
+# Errors: 0, Warnings: 0
+# vsim fifo_i2c_tb 
+# Start time: 22:49:06 on May 14,2025
+# Loading sv_std.std
+# Loading work.fifo_i2c_tb
+# Loading work.fifo_i2c
+# [TB] ---Test FAILED: Time: 45, data_out = b2, expected = a1---
+# [TB] ---Test PASSED: Time: 55, data_out = b2, expected = b2---
+# [TB] ---Test PASSED: Time: 65, data_out = c3, expected = c3---
+# [TB] ---Test PASSED: Time: 75, data_out = d4, expected = d4---
+# ** Note: $stop    : fifo_i2c_tb.sv(90)
+#    Time: 85 ps  Iteration: 1  Instance: /fifo_i2c_tb
+# Break in Module fifo_i2c_tb at fifo_i2c_tb.sv line 90
+# 0 ps
+# 89 ps
+# hexadecimal
+do commands_fifo_i2c.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:50:46 on May 14,2025
+# vlog -reportprogress 300 fifo_i2c.sv 
+# -- Compiling module fifo_i2c
+# 
+# Top level modules:
+# 	fifo_i2c
+# End time: 22:50:46 on May 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:50:46 on May 14,2025
+# vlog -reportprogress 300 fifo_i2c_tb.sv 
+# -- Compiling module fifo_i2c_tb
+# 
+# Top level modules:
+# 	fifo_i2c_tb
+# End time: 22:50:46 on May 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 22:50:48 on May 14,2025, Elapsed time: 0:01:42
+# Errors: 0, Warnings: 0
+# vsim fifo_i2c_tb 
+# Start time: 22:50:48 on May 14,2025
+# Loading sv_std.std
+# Loading work.fifo_i2c_tb
+# Loading work.fifo_i2c
+# [TB] ---Test FAILED: Time: 25, data_out = 00, expected = a1---
+# [TB] ---Test FAILED: Time: 35, data_out = 00, expected = b2---
+# [TB] ---Test FAILED: Time: 45, data_out = a1, expected = c3---
+# [TB] ---Test FAILED: Time: 55, data_out = b2, expected = d4---
+# ** Note: $stop    : fifo_i2c_tb.sv(90)
+#    Time: 65 ps  Iteration: 1  Instance: /fifo_i2c_tb
+# Break in Module fifo_i2c_tb at fifo_i2c_tb.sv line 90
+# 0 ps
+# 68 ps
+# hexadecimal
+do commands_fifo_i2c.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:52:20 on May 14,2025
+# vlog -reportprogress 300 fifo_i2c.sv 
+# -- Compiling module fifo_i2c
+# 
+# Top level modules:
+# 	fifo_i2c
+# End time: 22:52:20 on May 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:52:20 on May 14,2025
+# vlog -reportprogress 300 fifo_i2c_tb.sv 
+# -- Compiling module fifo_i2c_tb
+# 
+# Top level modules:
+# 	fifo_i2c_tb
+# End time: 22:52:20 on May 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 22:52:23 on May 14,2025, Elapsed time: 0:01:35
+# Errors: 0, Warnings: 0
+# vsim fifo_i2c_tb 
+# Start time: 22:52:23 on May 14,2025
+# Loading sv_std.std
+# Loading work.fifo_i2c_tb
+# Loading work.fifo_i2c
+# [TB] ---Test PASSED: Time: 35, data_out = a1, expected = a1---
+# [TB] ---Test FAILED: Time: 45, data_out = a1, expected = b2---
+# [TB] ---Test FAILED: Time: 55, data_out = b2, expected = c3---
+# [TB] ---Test FAILED: Time: 65, data_out = c3, expected = d4---
+# ** Note: $stop    : fifo_i2c_tb.sv(90)
+#    Time: 75 ps  Iteration: 1  Instance: /fifo_i2c_tb
+# Break in Module fifo_i2c_tb at fifo_i2c_tb.sv line 90
+# 0 ps
+# 79 ps
+# hexadecimal
+do commands_fifo_i2c.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:55:00 on May 14,2025
+# vlog -reportprogress 300 fifo_i2c.sv 
+# -- Compiling module fifo_i2c
+# 
+# Top level modules:
+# 	fifo_i2c
+# End time: 22:55:00 on May 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:55:00 on May 14,2025
+# vlog -reportprogress 300 fifo_i2c_tb.sv 
+# -- Compiling module fifo_i2c_tb
+# 
+# Top level modules:
+# 	fifo_i2c_tb
+# End time: 22:55:00 on May 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 22:55:07 on May 14,2025, Elapsed time: 0:02:44
+# Errors: 0, Warnings: 0
+# vsim fifo_i2c_tb 
+# Start time: 22:55:08 on May 14,2025
+# Loading sv_std.std
+# Loading work.fifo_i2c_tb
+# Loading work.fifo_i2c
+# [TB] ---Test FAILED: Time: 35, data_out = a1, expected = d4---
+# [TB] ---Test FAILED: Time: 45, data_out = a1, expected = c3---
+# [TB] ---Test PASSED: Time: 55, data_out = b2, expected = b2---
+# [TB] ---Test FAILED: Time: 65, data_out = c3, expected = a1---
+# ** Note: $stop    : fifo_i2c_tb.sv(90)
+#    Time: 75 ps  Iteration: 1  Instance: /fifo_i2c_tb
+# Break in Module fifo_i2c_tb at fifo_i2c_tb.sv line 90
+# 0 ps
+# 79 ps
+# hexadecimal
+do commands_fifo_i2c.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:55:56 on May 14,2025
+# vlog -reportprogress 300 fifo_i2c.sv 
+# -- Compiling module fifo_i2c
+# 
+# Top level modules:
+# 	fifo_i2c
+# End time: 22:55:57 on May 14,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:55:57 on May 14,2025
+# vlog -reportprogress 300 fifo_i2c_tb.sv 
+# -- Compiling module fifo_i2c_tb
+# 
+# Top level modules:
+# 	fifo_i2c_tb
+# End time: 22:55:57 on May 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 22:56:01 on May 14,2025, Elapsed time: 0:00:53
+# Errors: 0, Warnings: 0
+# vsim fifo_i2c_tb 
+# Start time: 22:56:01 on May 14,2025
+# Loading sv_std.std
+# Loading work.fifo_i2c_tb
+# Loading work.fifo_i2c
+# [TB] ---Test PASSED: Time: 35, data_out = a1, expected = a1---
+# [TB] ---Test FAILED: Time: 45, data_out = a1, expected = b2---
+# [TB] ---Test FAILED: Time: 55, data_out = b2, expected = c3---
+# [TB] ---Test FAILED: Time: 65, data_out = c3, expected = d4---
+# ** Note: $stop    : fifo_i2c_tb.sv(90)
+#    Time: 75 ps  Iteration: 1  Instance: /fifo_i2c_tb
+# Break in Module fifo_i2c_tb at fifo_i2c_tb.sv line 90
+# 0 ps
+# 79 ps
+# hexadecimal
+do commands_fifo_i2c.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:57:28 on May 14,2025
+# vlog -reportprogress 300 fifo_i2c.sv 
+# -- Compiling module fifo_i2c
+# 
+# Top level modules:
+# 	fifo_i2c
+# End time: 22:57:29 on May 14,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:57:29 on May 14,2025
+# vlog -reportprogress 300 fifo_i2c_tb.sv 
+# -- Compiling module fifo_i2c_tb
+# 
+# Top level modules:
+# 	fifo_i2c_tb
+# End time: 22:57:29 on May 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 22:57:31 on May 14,2025, Elapsed time: 0:01:30
+# Errors: 0, Warnings: 0
+# vsim fifo_i2c_tb 
+# Start time: 22:57:31 on May 14,2025
+# Loading sv_std.std
+# Loading work.fifo_i2c_tb
+# Loading work.fifo_i2c
+# [TB] ---Test FAILED: Time: 25, data_out = 00, expected = a1---
+# [TB] ---Test FAILED: Time: 35, data_out = 00, expected = b2---
+# [TB] ---Test FAILED: Time: 45, data_out = a1, expected = c3---
+# [TB] ---Test FAILED: Time: 55, data_out = b2, expected = d4---
+# ** Note: $stop    : fifo_i2c_tb.sv(90)
+#    Time: 65 ps  Iteration: 1  Instance: /fifo_i2c_tb
+# Break in Module fifo_i2c_tb at fifo_i2c_tb.sv line 90
+# 0 ps
+# 68 ps
+# hexadecimal
+do commands_fifo_i2c.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:59:08 on May 14,2025
+# vlog -reportprogress 300 fifo_i2c.sv 
+# -- Compiling module fifo_i2c
+# 
+# Top level modules:
+# 	fifo_i2c
+# End time: 22:59:08 on May 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:59:08 on May 14,2025
+# vlog -reportprogress 300 fifo_i2c_tb.sv 
+# -- Compiling module fifo_i2c_tb
+# 
+# Top level modules:
+# 	fifo_i2c_tb
+# End time: 22:59:08 on May 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 22:59:11 on May 14,2025, Elapsed time: 0:01:40
+# Errors: 0, Warnings: 0
+# vsim fifo_i2c_tb 
+# Start time: 22:59:11 on May 14,2025
+# Loading sv_std.std
+# Loading work.fifo_i2c_tb
+# Loading work.fifo_i2c
+# [TB] ---Test FAILED: Time: 45, data_out = b2, expected = a1---
+# [TB] ---Test PASSED: Time: 55, data_out = b2, expected = b2---
+# [TB] ---Test PASSED: Time: 65, data_out = c3, expected = c3---
+# [TB] ---Test PASSED: Time: 75, data_out = d4, expected = d4---
+# ** Note: $stop    : fifo_i2c_tb.sv(90)
+#    Time: 85 ps  Iteration: 1  Instance: /fifo_i2c_tb
+# Break in Module fifo_i2c_tb at fifo_i2c_tb.sv line 90
+# 0 ps
+# 89 ps
+# hexadecimal
+do commands_fifo_i2c.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:59:33 on May 14,2025
+# vlog -reportprogress 300 fifo_i2c.sv 
+# -- Compiling module fifo_i2c
+# 
+# Top level modules:
+# 	fifo_i2c
+# End time: 22:59:33 on May 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:59:33 on May 14,2025
+# vlog -reportprogress 300 fifo_i2c_tb.sv 
+# -- Compiling module fifo_i2c_tb
+# 
+# Top level modules:
+# 	fifo_i2c_tb
+# End time: 22:59:33 on May 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 22:59:36 on May 14,2025, Elapsed time: 0:00:25
+# Errors: 0, Warnings: 0
+# vsim fifo_i2c_tb 
+# Start time: 22:59:36 on May 14,2025
+# Loading sv_std.std
+# Loading work.fifo_i2c_tb
+# Loading work.fifo_i2c
+# [TB] ---Test FAILED: Time: 45, data_out = b2, expected = a1---
+# [TB] ---Test PASSED: Time: 55, data_out = b2, expected = b2---
+# [TB] ---Test PASSED: Time: 65, data_out = c3, expected = c3---
+# [TB] ---Test PASSED: Time: 75, data_out = d4, expected = d4---
+# ** Note: $stop    : fifo_i2c_tb.sv(90)
+#    Time: 85 ps  Iteration: 1  Instance: /fifo_i2c_tb
+# Break in Module fifo_i2c_tb at fifo_i2c_tb.sv line 90
+# 0 ps
+# 89 ps
+# hexadecimal
+do commands_fifo_i2c.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:00:11 on May 14,2025
+# vlog -reportprogress 300 fifo_i2c.sv 
+# -- Compiling module fifo_i2c
+# 
+# Top level modules:
+# 	fifo_i2c
+# End time: 23:00:11 on May 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:00:11 on May 14,2025
+# vlog -reportprogress 300 fifo_i2c_tb.sv 
+# -- Compiling module fifo_i2c_tb
+# 
+# Top level modules:
+# 	fifo_i2c_tb
+# End time: 23:00:11 on May 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 23:00:13 on May 14,2025, Elapsed time: 0:00:37
+# Errors: 0, Warnings: 0
+# vsim fifo_i2c_tb 
+# Start time: 23:00:13 on May 14,2025
+# Loading sv_std.std
+# Loading work.fifo_i2c_tb
+# Loading work.fifo_i2c
+# [TB] ---Test FAILED: Time: 45, data_out = b2, expected = a1---
+# [TB] ---Test PASSED: Time: 55, data_out = b2, expected = b2---
+# [TB] ---Test PASSED: Time: 65, data_out = c3, expected = c3---
+# [TB] ---Test PASSED: Time: 75, data_out = d4, expected = d4---
+# ** Note: $stop    : fifo_i2c_tb.sv(90)
+#    Time: 85 ps  Iteration: 1  Instance: /fifo_i2c_tb
+# Break in Module fifo_i2c_tb at fifo_i2c_tb.sv line 90
+# 0 ps
+# 89 ps
+# hexadecimal
+do commands_fifo_i2c.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:00:28 on May 14,2025
+# vlog -reportprogress 300 fifo_i2c.sv 
+# -- Compiling module fifo_i2c
+# 
+# Top level modules:
+# 	fifo_i2c
+# End time: 23:00:28 on May 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:00:28 on May 14,2025
+# vlog -reportprogress 300 fifo_i2c_tb.sv 
+# -- Compiling module fifo_i2c_tb
+# 
+# Top level modules:
+# 	fifo_i2c_tb
+# End time: 23:00:28 on May 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 23:00:31 on May 14,2025, Elapsed time: 0:00:18
+# Errors: 0, Warnings: 0
+# vsim fifo_i2c_tb 
+# Start time: 23:00:31 on May 14,2025
+# Loading sv_std.std
+# Loading work.fifo_i2c_tb
+# Loading work.fifo_i2c
+# [TB] ---Test PASSED: Time: 35, data_out = a1, expected = a1---
+# [TB] ---Test FAILED: Time: 45, data_out = a1, expected = b2---
+# [TB] ---Test FAILED: Time: 55, data_out = b2, expected = c3---
+# [TB] ---Test FAILED: Time: 65, data_out = c3, expected = d4---
+# ** Note: $stop    : fifo_i2c_tb.sv(90)
+#    Time: 75 ps  Iteration: 1  Instance: /fifo_i2c_tb
+# Break in Module fifo_i2c_tb at fifo_i2c_tb.sv line 90
+# 0 ps
+# 79 ps
+# hexadecimal
+do commands_fifo_i2c.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:00:53 on May 14,2025
+# vlog -reportprogress 300 fifo_i2c.sv 
+# -- Compiling module fifo_i2c
+# 
+# Top level modules:
+# 	fifo_i2c
+# End time: 23:00:53 on May 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:00:53 on May 14,2025
+# vlog -reportprogress 300 fifo_i2c_tb.sv 
+# -- Compiling module fifo_i2c_tb
+# 
+# Top level modules:
+# 	fifo_i2c_tb
+# End time: 23:00:53 on May 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 23:00:55 on May 14,2025, Elapsed time: 0:00:24
+# Errors: 0, Warnings: 0
+# vsim fifo_i2c_tb 
+# Start time: 23:00:55 on May 14,2025
+# Loading sv_std.std
+# Loading work.fifo_i2c_tb
+# Loading work.fifo_i2c
+# [TB] ---Test PASSED: Time: 35, data_out = a1, expected = a1---
+# [TB] ---Test FAILED: Time: 45, data_out = a1, expected = b2---
+# [TB] ---Test FAILED: Time: 55, data_out = b2, expected = c3---
+# [TB] ---Test FAILED: Time: 65, data_out = c3, expected = d4---
+# ** Note: $stop    : fifo_i2c_tb.sv(90)
+#    Time: 75 ps  Iteration: 1  Instance: /fifo_i2c_tb
+# Break in Module fifo_i2c_tb at fifo_i2c_tb.sv line 90
+# 0 ps
+# 79 ps
+# hexadecimal
+do commands_fifo_i2c.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:01:19 on May 14,2025
+# vlog -reportprogress 300 fifo_i2c.sv 
+# -- Compiling module fifo_i2c
+# 
+# Top level modules:
+# 	fifo_i2c
+# End time: 23:01:19 on May 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:01:19 on May 14,2025
+# vlog -reportprogress 300 fifo_i2c_tb.sv 
+# -- Compiling module fifo_i2c_tb
+# 
+# Top level modules:
+# 	fifo_i2c_tb
+# End time: 23:01:19 on May 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 23:01:21 on May 14,2025, Elapsed time: 0:00:26
+# Errors: 0, Warnings: 0
+# vsim fifo_i2c_tb 
+# Start time: 23:01:21 on May 14,2025
+# Loading sv_std.std
+# Loading work.fifo_i2c_tb
+# Loading work.fifo_i2c
+# [TB] ---Test PASSED: Time: 35, data_out = a1, expected = a1---
+# [TB] ---Test FAILED: Time: 45, data_out = a1, expected = b2---
+# [TB] ---Test FAILED: Time: 55, data_out = b2, expected = c3---
+# [TB] ---Test FAILED: Time: 65, data_out = c3, expected = d4---
+# ** Note: $stop    : fifo_i2c_tb.sv(90)
+#    Time: 75 ps  Iteration: 1  Instance: /fifo_i2c_tb
+# Break in Module fifo_i2c_tb at fifo_i2c_tb.sv line 90
+# 0 ps
+# 79 ps
+# hexadecimal
+do commands_fifo_i2c.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:01:55 on May 14,2025
+# vlog -reportprogress 300 fifo_i2c.sv 
+# -- Compiling module fifo_i2c
+# 
+# Top level modules:
+# 	fifo_i2c
+# End time: 23:01:55 on May 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:01:55 on May 14,2025
+# vlog -reportprogress 300 fifo_i2c_tb.sv 
+# -- Compiling module fifo_i2c_tb
+# 
+# Top level modules:
+# 	fifo_i2c_tb
+# End time: 23:01:55 on May 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 23:01:58 on May 14,2025, Elapsed time: 0:00:37
+# Errors: 0, Warnings: 0
+# vsim fifo_i2c_tb 
+# Start time: 23:01:58 on May 14,2025
+# Loading sv_std.std
+# Loading work.fifo_i2c_tb
+# Loading work.fifo_i2c
+# [TB] ---Test FAILED: Time: 25, data_out = 00, expected = a1---
+# [TB] ---Test FAILED: Time: 35, data_out = 00, expected = b2---
+# [TB] ---Test FAILED: Time: 45, data_out = a1, expected = c3---
+# [TB] ---Test FAILED: Time: 55, data_out = b2, expected = d4---
+# ** Note: $stop    : fifo_i2c_tb.sv(90)
+#    Time: 65 ps  Iteration: 1  Instance: /fifo_i2c_tb
+# Break in Module fifo_i2c_tb at fifo_i2c_tb.sv line 90
+# 0 ps
+# 68 ps
+# hexadecimal
+do commands_fifo_i2c.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:02:14 on May 14,2025
+# vlog -reportprogress 300 fifo_i2c.sv 
+# -- Compiling module fifo_i2c
+# 
+# Top level modules:
+# 	fifo_i2c
+# End time: 23:02:14 on May 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:02:14 on May 14,2025
+# vlog -reportprogress 300 fifo_i2c_tb.sv 
+# -- Compiling module fifo_i2c_tb
+# 
+# Top level modules:
+# 	fifo_i2c_tb
+# End time: 23:02:14 on May 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 23:02:16 on May 14,2025, Elapsed time: 0:00:18
+# Errors: 0, Warnings: 0
+# vsim fifo_i2c_tb 
+# Start time: 23:02:16 on May 14,2025
+# Loading sv_std.std
+# Loading work.fifo_i2c_tb
+# Loading work.fifo_i2c
+# [TB] ---Test FAILED: Time: 25, data_out = 00, expected = a1---
+# [TB] ---Test FAILED: Time: 35, data_out = 00, expected = b2---
+# [TB] ---Test FAILED: Time: 45, data_out = a1, expected = c3---
+# [TB] ---Test FAILED: Time: 55, data_out = b2, expected = d4---
+# ** Note: $stop    : fifo_i2c_tb.sv(90)
+#    Time: 65 ps  Iteration: 1  Instance: /fifo_i2c_tb
+# Break in Module fifo_i2c_tb at fifo_i2c_tb.sv line 90
+# 0 ps
+# 68 ps
+# hexadecimal
+do commands_fifo_i2c.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:02:55 on May 14,2025
+# vlog -reportprogress 300 fifo_i2c.sv 
+# -- Compiling module fifo_i2c
+# 
+# Top level modules:
+# 	fifo_i2c
+# End time: 23:02:55 on May 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:02:55 on May 14,2025
+# vlog -reportprogress 300 fifo_i2c_tb.sv 
+# -- Compiling module fifo_i2c_tb
+# 
+# Top level modules:
+# 	fifo_i2c_tb
+# End time: 23:02:55 on May 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 23:02:58 on May 14,2025, Elapsed time: 0:00:42
+# Errors: 0, Warnings: 0
+# vsim fifo_i2c_tb 
+# Start time: 23:02:58 on May 14,2025
+# Loading sv_std.std
+# Loading work.fifo_i2c_tb
+# Loading work.fifo_i2c
+# [TB] ---Test FAILED: Time: 25, data_out = 00, expected = a1---
+# [TB] ---Test FAILED: Time: 35, data_out = 00, expected = b2---
+# [TB] ---Test FAILED: Time: 45, data_out = a1, expected = c3---
+# [TB] ---Test FAILED: Time: 55, data_out = b2, expected = d4---
+# ** Note: $stop    : fifo_i2c_tb.sv(90)
+#    Time: 65 ps  Iteration: 1  Instance: /fifo_i2c_tb
+# Break in Module fifo_i2c_tb at fifo_i2c_tb.sv line 90
+# 0 ps
+# 68 ps
+# hexadecimal
+do commands_fifo_i2c.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:03:17 on May 14,2025
+# vlog -reportprogress 300 fifo_i2c.sv 
+# -- Compiling module fifo_i2c
+# 
+# Top level modules:
+# 	fifo_i2c
+# End time: 23:03:17 on May 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:03:17 on May 14,2025
+# vlog -reportprogress 300 fifo_i2c_tb.sv 
+# -- Compiling module fifo_i2c_tb
+# 
+# Top level modules:
+# 	fifo_i2c_tb
+# End time: 23:03:17 on May 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 23:03:20 on May 14,2025, Elapsed time: 0:00:22
+# Errors: 0, Warnings: 0
+# vsim fifo_i2c_tb 
+# Start time: 23:03:20 on May 14,2025
+# Loading sv_std.std
+# Loading work.fifo_i2c_tb
+# Loading work.fifo_i2c
+# [TB] ---Test FAILED: Time: 25, data_out = 00, expected = a1---
+# [TB] ---Test FAILED: Time: 35, data_out = 00, expected = b2---
+# [TB] ---Test FAILED: Time: 45, data_out = a1, expected = c3---
+# [TB] ---Test FAILED: Time: 55, data_out = b2, expected = d4---
+# ** Note: $stop    : fifo_i2c_tb.sv(90)
+#    Time: 65 ps  Iteration: 1  Instance: /fifo_i2c_tb
+# Break in Module fifo_i2c_tb at fifo_i2c_tb.sv line 90
+# 0 ps
+# 68 ps
+# hexadecimal
+do commands_fifo_i2c.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:03:43 on May 14,2025
+# vlog -reportprogress 300 fifo_i2c.sv 
+# -- Compiling module fifo_i2c
+# 
+# Top level modules:
+# 	fifo_i2c
+# End time: 23:03:44 on May 14,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:03:44 on May 14,2025
+# vlog -reportprogress 300 fifo_i2c_tb.sv 
+# -- Compiling module fifo_i2c_tb
+# 
+# Top level modules:
+# 	fifo_i2c_tb
+# End time: 23:03:44 on May 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 23:03:46 on May 14,2025, Elapsed time: 0:00:26
+# Errors: 0, Warnings: 0
+# vsim fifo_i2c_tb 
+# Start time: 23:03:46 on May 14,2025
+# Loading sv_std.std
+# Loading work.fifo_i2c_tb
+# Loading work.fifo_i2c
+# [TB] ---Test PASSED: Time: 35, data_out = a1, expected = a1---
+# [TB] ---Test FAILED: Time: 45, data_out = a1, expected = b2---
+# 0 ps
+# 1966340 ps
+# hexadecimal
+do commands_fifo_i2c.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:04:19 on May 14,2025
+# vlog -reportprogress 300 fifo_i2c.sv 
+# -- Compiling module fifo_i2c
+# 
+# Top level modules:
+# 	fifo_i2c
+# End time: 23:04:19 on May 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:04:19 on May 14,2025
+# vlog -reportprogress 300 fifo_i2c_tb.sv 
+# -- Compiling module fifo_i2c_tb
+# 
+# Top level modules:
+# 	fifo_i2c_tb
+# End time: 23:04:19 on May 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 23:04:21 on May 14,2025, Elapsed time: 0:00:35
+# Errors: 0, Warnings: 0
+# vsim fifo_i2c_tb 
+# Start time: 23:04:21 on May 14,2025
+# Loading sv_std.std
+# Loading work.fifo_i2c_tb
+# Loading work.fifo_i2c
+# [TB] ---Test PASSED: Time: 35, data_out = a1, expected = a1---
+# [TB] ---Test FAILED: Time: 45, data_out = a1, expected = b2---
+# [TB] ---Test FAILED: Time: 55, data_out = b2, expected = c3---
+# [TB] ---Test FAILED: Time: 65, data_out = c3, expected = d4---
+# ** Note: $stop    : fifo_i2c_tb.sv(90)
+#    Time: 75 ps  Iteration: 1  Instance: /fifo_i2c_tb
+# Break in Module fifo_i2c_tb at fifo_i2c_tb.sv line 90
+# 0 ps
+# 79 ps
+# hexadecimal
+do commands_fifo_i2c.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:04:52 on May 14,2025
+# vlog -reportprogress 300 fifo_i2c.sv 
+# -- Compiling module fifo_i2c
+# 
+# Top level modules:
+# 	fifo_i2c
+# End time: 23:04:52 on May 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:04:52 on May 14,2025
+# vlog -reportprogress 300 fifo_i2c_tb.sv 
+# -- Compiling module fifo_i2c_tb
+# 
+# Top level modules:
+# 	fifo_i2c_tb
+# End time: 23:04:52 on May 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 23:04:56 on May 14,2025, Elapsed time: 0:00:35
+# Errors: 0, Warnings: 0
+# vsim fifo_i2c_tb 
+# Start time: 23:04:56 on May 14,2025
+# Loading sv_std.std
+# Loading work.fifo_i2c_tb
+# Loading work.fifo_i2c
+# [TB] ---Test PASSED: Time: 35, data_out = a1, expected = a1---
+# [TB] ---Test FAILED: Time: 35, data_out = a1, expected = b2---
+# [TB] ---Test FAILED: Time: 35, data_out = a1, expected = c3---
+# [TB] ---Test FAILED: Time: 35, data_out = a1, expected = d4---
+# ** Note: $stop    : fifo_i2c_tb.sv(90)
+#    Time: 45 ps  Iteration: 1  Instance: /fifo_i2c_tb
+# Break in Module fifo_i2c_tb at fifo_i2c_tb.sv line 90
+# 0 ps
+# 47 ps
+# hexadecimal
+do commands_fifo_i2c.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:05:28 on May 14,2025
+# vlog -reportprogress 300 fifo_i2c.sv 
+# -- Compiling module fifo_i2c
+# 
+# Top level modules:
+# 	fifo_i2c
+# End time: 23:05:29 on May 14,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:05:29 on May 14,2025
+# vlog -reportprogress 300 fifo_i2c_tb.sv 
+# -- Compiling module fifo_i2c_tb
+# 
+# Top level modules:
+# 	fifo_i2c_tb
+# End time: 23:05:29 on May 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 23:05:33 on May 14,2025, Elapsed time: 0:00:37
+# Errors: 0, Warnings: 0
+# vsim fifo_i2c_tb 
+# Start time: 23:05:33 on May 14,2025
+# Loading sv_std.std
+# Loading work.fifo_i2c_tb
+# Loading work.fifo_i2c
+# [TB] ---Test PASSED: Time: 35, data_out = a1, expected = a1---
+# 0 ps
+# 1278806 ps
+# hexadecimal
+do commands_fifo_i2c.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:06:07 on May 14,2025
+# vlog -reportprogress 300 fifo_i2c.sv 
+# -- Compiling module fifo_i2c
+# 
+# Top level modules:
+# 	fifo_i2c
+# End time: 23:06:07 on May 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:06:07 on May 14,2025
+# vlog -reportprogress 300 fifo_i2c_tb.sv 
+# -- Compiling module fifo_i2c_tb
+# 
+# Top level modules:
+# 	fifo_i2c_tb
+# End time: 23:06:07 on May 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 23:06:10 on May 14,2025, Elapsed time: 0:00:37
+# Errors: 0, Warnings: 0
+# vsim fifo_i2c_tb 
+# Start time: 23:06:10 on May 14,2025
+# Loading sv_std.std
+# Loading work.fifo_i2c_tb
+# Loading work.fifo_i2c
+# [TB] ---Test PASSED: Time: 35, data_out = a1, expected = a1---
+# [TB] ---Test FAILED: Time: 45, data_out = a1, expected = b2---
+# [TB] ---Test FAILED: Time: 55, data_out = b2, expected = c3---
+# [TB] ---Test FAILED: Time: 65, data_out = c3, expected = d4---
+# ** Note: $stop    : fifo_i2c_tb.sv(90)
+#    Time: 75 ps  Iteration: 1  Instance: /fifo_i2c_tb
+# Break in Module fifo_i2c_tb at fifo_i2c_tb.sv line 90
+# 0 ps
+# 79 ps
+# hexadecimal
+do commands_fifo_i2c.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:08:30 on May 14,2025
+# vlog -reportprogress 300 fifo_i2c.sv 
+# -- Compiling module fifo_i2c
+# 
+# Top level modules:
+# 	fifo_i2c
+# End time: 23:08:30 on May 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:08:30 on May 14,2025
+# vlog -reportprogress 300 fifo_i2c_tb.sv 
+# -- Compiling module fifo_i2c_tb
+# 
+# Top level modules:
+# 	fifo_i2c_tb
+# End time: 23:08:30 on May 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 23:08:33 on May 14,2025, Elapsed time: 0:02:23
+# Errors: 0, Warnings: 0
+# vsim fifo_i2c_tb 
+# Start time: 23:08:33 on May 14,2025
+# Loading sv_std.std
+# Loading work.fifo_i2c_tb
+# Loading work.fifo_i2c
+# [TB] ---Test FAILED: Time: 25, data_out = 00, expected = a1---
+# [TB] ---Test FAILED: Time: 35, data_out = 00, expected = b2---
+# [TB] ---Test FAILED: Time: 45, data_out = a1, expected = c3---
+# [TB] ---Test FAILED: Time: 55, data_out = b2, expected = d4---
+# ** Note: $stop    : fifo_i2c_tb.sv(90)
+#    Time: 65 ps  Iteration: 1  Instance: /fifo_i2c_tb
+# Break in Module fifo_i2c_tb at fifo_i2c_tb.sv line 90
+# 0 ps
+# 68 ps
+# hexadecimal
+do commands_fifo_i2c.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:09:07 on May 14,2025
+# vlog -reportprogress 300 fifo_i2c.sv 
+# -- Compiling module fifo_i2c
+# 
+# Top level modules:
+# 	fifo_i2c
+# End time: 23:09:07 on May 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:09:07 on May 14,2025
+# vlog -reportprogress 300 fifo_i2c_tb.sv 
+# -- Compiling module fifo_i2c_tb
+# 
+# Top level modules:
+# 	fifo_i2c_tb
+# End time: 23:09:07 on May 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 23:09:10 on May 14,2025, Elapsed time: 0:00:37
+# Errors: 0, Warnings: 0
+# vsim fifo_i2c_tb 
+# Start time: 23:09:10 on May 14,2025
+# Loading sv_std.std
+# Loading work.fifo_i2c_tb
+# Loading work.fifo_i2c
+# [TB] ---Test PASSED: Time: 35, data_out = a1, expected = a1---
+# [TB] ---Test FAILED: Time: 45, data_out = a1, expected = b2---
+# [TB] ---Test FAILED: Time: 55, data_out = b2, expected = c3---
+# [TB] ---Test FAILED: Time: 65, data_out = c3, expected = d4---
+# ** Note: $stop    : fifo_i2c_tb.sv(90)
+#    Time: 75 ps  Iteration: 1  Instance: /fifo_i2c_tb
+# Break in Module fifo_i2c_tb at fifo_i2c_tb.sv line 90
+# 0 ps
+# 79 ps
+# hexadecimal
+# End time: 23:14:44 on May 14,2025, Elapsed time: 0:05:34
+# Errors: 0, Warnings: 0

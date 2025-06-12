@@ -1,0 +1,148 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Dell/Desktop/FYP material/UART/UART_kashaf/UART_kashaf/uart_top
+vuart_rx
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1741194957
+!i10b 1
+!s100 EoSJbko`_AbEAn1[Pz?4f2
+IgHL8INbFUEh7ajYORGd5?2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+!s105 uart_rx_sv_unit
+S1
+R0
+w1737355007
+8../uart_receiver/uart_rx.sv
+F../uart_receiver/uart_rx.sv
+L0 5
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1741194957.000000
+Z6 !s107 ../uart_receiver/uart_rx_tb.sv|../uart_receiver/uart_rx.sv|
+Z7 !s90 -reportprogress|300|../uart_receiver/uart_rx.sv|../uart_receiver/uart_rx_tb.sv|
+!i113 1
+Z8 tCvgOpt 0
+vuart_rx_tb
+R1
+R2
+!i10b 1
+!s100 NM^C;c7]dJ>80JQnj`7zL2
+ICz;gUomo1;_H=zcR5VgDD2
+R3
+!s105 uart_rx_tb_sv_unit
+S1
+R0
+w1738409509
+8../uart_receiver/uart_rx_tb.sv
+F../uart_receiver/uart_rx_tb.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+vuart_top
+R1
+R2
+!i10b 1
+!s100 <=CBz[bIS]Ya7Sej[H<B]3
+IdAeg4GA:fI7W_AhBfZIGV3
+R3
+!s105 uart_top_sv_unit
+S1
+R0
+w1738172413
+8uart_top.sv
+Fuart_top.sv
+L0 6
+R4
+r1
+!s85 0
+31
+Z9 !s108 1741194956.000000
+Z10 !s107 uart_top_tb.sv|uart_top.sv|
+Z11 !s90 -reportprogress|300|uart_top.sv|uart_top_tb.sv|
+!i113 1
+R8
+vuart_top_tb
+R1
+R2
+!i10b 1
+!s100 z7iiEbLGV7V3O74LPS6R70
+I7=3D?BinCU`ZL:R?KSN6S3
+R3
+!s105 uart_top_tb_sv_unit
+S1
+R0
+w1738172432
+8uart_top_tb.sv
+Fuart_top_tb.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R8
+vuart_tx
+R1
+R2
+!i10b 1
+!s100 ]MNEA3[iD:RL2cA9cM3Hg3
+INdUYFm[LSo]aB6VQI3WmR3
+R3
+!s105 uart_tx_sv_unit
+S1
+R0
+w1737357171
+8../uart_transmitter/uart_tx.sv
+F../uart_transmitter/uart_tx.sv
+L0 77
+R4
+r1
+!s85 0
+31
+R5
+Z12 !s107 ../uart_transmitter/uart_tx_tb.sv|../uart_transmitter/uart_tx.sv|
+Z13 !s90 -reportprogress|300|../uart_transmitter/uart_tx.sv|../uart_transmitter/uart_tx_tb.sv|
+!i113 1
+R8
+vuart_tx_tb
+R1
+R2
+!i10b 1
+!s100 X:?Ok>lhH[lNiJS06jHJA1
+I7WP:9zLfUEVeB4[QF_`B[2
+R3
+!s105 uart_tx_tb_sv_unit
+S1
+R0
+w1738409301
+8../uart_transmitter/uart_tx_tb.sv
+F../uart_transmitter/uart_tx_tb.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+R12
+R13
+!i113 1
+R8

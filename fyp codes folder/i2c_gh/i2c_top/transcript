@@ -1,0 +1,58 @@
+# do commands_i2c.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:31:47 on May 14,2025
+# vlog -reportprogress 300 ../i2c_master/i2c_master.sv 
+# -- Compiling module i2c_master
+# 
+# Top level modules:
+# 	i2c_master
+# End time: 23:31:47 on May 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:31:47 on May 14,2025
+# vlog -reportprogress 300 ../i2c_slave/i2c_slave.sv 
+# -- Compiling module i2c_slave
+# 
+# Top level modules:
+# 	i2c_slave
+# End time: 23:31:47 on May 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:31:47 on May 14,2025
+# vlog -reportprogress 300 i2c_top.sv 
+# -- Compiling module i2c_top
+# 
+# Top level modules:
+# 	i2c_top
+# End time: 23:31:47 on May 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:31:47 on May 14,2025
+# vlog -reportprogress 300 i2c_top_tb.sv 
+# -- Compiling module i2c_top_tb
+# 
+# Top level modules:
+# 	i2c_top_tb
+# End time: 23:31:47 on May 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim work.i2c_top_tb 
+# Start time: 23:31:48 on May 14,2025
+# Loading sv_std.std
+# Loading work.i2c_top_tb
+# Loading work.i2c_top
+# Loading work.i2c_master
+# Loading work.i2c_slave
+# ** Warning: (vsim-3839) i2c_top_tb.sv(98): Variable '/i2c_top_tb/dout_slv', driven via a port connection, is multiply driven. See i2c_top_tb.sv(19).
+#    Time: 0 ps  Iteration: 0  Instance: /i2c_top_tb File: i2c_top_tb.sv
+# [TB] Reset complete
+# [TB] ---Write: Addr=2, Data=170---
+# [TB] ---Read: Addr=2, Data=170---
+# [TB] ---Verification PASSED: Addr=2, Data=170---
+# [TB] ################################################
+# ** Note: $stop    : i2c_top_tb.sv(106)
+#    Time: 160135 ns  Iteration: 2  Instance: /i2c_top_tb
+# Break in Module i2c_top_tb at i2c_top_tb.sv line 106
+# 0 ps
+# 168141750 ps
+# End time: 01:06:30 on May 15,2025, Elapsed time: 1:34:42
+# Errors: 0, Warnings: 1

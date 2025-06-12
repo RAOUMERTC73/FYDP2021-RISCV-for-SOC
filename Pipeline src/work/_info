@@ -1,0 +1,102 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/RAO/Desktop/Desktop/Pipeline src
+vuart_tb
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1737051803
+!i10b 1
+!s100 Jo?d>_S1C^M>AjWAhEN<b0
+I7?SX3iQ3?T<a^oK;L`Po[3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+!s105 uart_tb_sv_unit
+S1
+R0
+w1737050294
+8.\uart_tb.sv
+F.\uart_tb.sv
+L0 1
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1737051803.000000
+Z6 !s107 .\uart_tb.sv|.\uart_top.sv|
+Z7 !s90 .\uart_top.sv|.\uart_tb.sv|
+!i113 1
+Z8 tCvgOpt 0
+vuart_top
+R1
+R2
+!i10b 1
+!s100 2g5Z=mRCU3TReUI77SV2j2
+IDmGon[dMkXJOfSTgXz[[b3
+R3
+Z9 !s105 uart_top_sv_unit
+S1
+R0
+w1737051674
+Z10 8.\uart_top.sv
+Z11 F.\uart_top.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+vuartrx
+R1
+Z12 !s110 1737051023
+!i10b 1
+!s100 mBCaadXY?4`iD<f0ah^>R3
+I=FoOV_:L@=S6VM2MT5iHM1
+R3
+R9
+S1
+R0
+Z13 w1737050413
+R10
+R11
+L0 130
+R4
+r1
+!s85 0
+31
+Z14 !s108 1737051023.000000
+R6
+R7
+!i113 1
+R8
+vuarttx
+R1
+R12
+!i10b 1
+!s100 l>SZ5;6PVoBccU3`[bRc92
+IH1NEl=XHL2O5kDl;ElU0l0
+R3
+R9
+S1
+R0
+R13
+R10
+R11
+L0 33
+R4
+r1
+!s85 0
+31
+R14
+R6
+R7
+!i113 1
+R8

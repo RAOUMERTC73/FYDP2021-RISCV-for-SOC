@@ -1,0 +1,79 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/RAO/Desktop/Desktop/Design-of-I2C-Protocol/Design-of-I2C-Protocol/src
+vi2c_master
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1738756479
+!i10b 1
+!s100 >i;aAYCh6oNGG5MLQWlT[1
+IaPl5fNBk`g4o726:U]@7U3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+!s105 i2c_master_sv_unit
+S1
+R0
+w1738756467
+8.\i2c_master.sv
+F.\i2c_master.sv
+L0 3
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1738756479.000000
+Z6 !s107 .\i2c_testbench.sv|.\i2c_slave.sv|.\i2c_master.sv|
+Z7 !s90 .\i2c_master.sv|.\i2c_slave.sv|.\i2c_testbench.sv|
+!i113 1
+Z8 tCvgOpt 0
+vi2c_slave
+R1
+R2
+!i10b 1
+!s100 V1M]:33ece:8L8U9L>aEd1
+I^AEk=>cjDBT0;59YR^9hO0
+R3
+!s105 i2c_slave_sv_unit
+S1
+R0
+w1738582225
+8.\i2c_slave.sv
+F.\i2c_slave.sv
+L0 3
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+vi2c_testbench
+R1
+R2
+!i10b 1
+!s100 ;WLFFQ<382NAQIk>LYBVK1
+I??RIEnoJ;RI0>dT[hU17k3
+R3
+!s105 i2c_testbench_sv_unit
+S1
+R0
+w1738756434
+8.\i2c_testbench.sv
+F.\i2c_testbench.sv
+L0 3
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8

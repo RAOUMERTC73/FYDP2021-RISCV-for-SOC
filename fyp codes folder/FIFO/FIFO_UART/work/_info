@@ -1,0 +1,102 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Dell/Desktop/FYP material/FIFO
+vfifo
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1746988706
+!i10b 1
+!s100 XCjcgB4M5Md8ohUS?]H[S0
+IQ]Y5JMCZo8[B>LCODJigd3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+!s105 fifo_sv_unit
+S1
+R0
+w1746987577
+8fifo.sv
+Ffifo.sv
+L0 1
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1746988706.000000
+!s107 fifo.sv|
+!s90 -reportprogress|300|fifo.sv|
+!i113 1
+Z6 tCvgOpt 0
+vfifo_tb
+R1
+R2
+!i10b 1
+!s100 dcL2Ta]?eo<nUS5AXB8280
+I0Yk:]gcBK7DbU?I7A>]zW2
+R3
+!s105 fifo_tb_sv_unit
+S1
+R0
+w1746988703
+8fifo_tb.sv
+Ffifo_tb.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+!s107 fifo_tb.sv|
+!s90 -reportprogress|300|fifo_tb.sv|
+!i113 1
+R6
+vfifo_uart
+R1
+Z7 !s110 1747243902
+!i10b 1
+!s100 Q[hGHd52MoMVn6T[XzLFN2
+IFkj7VnPo3gBWMB@U2=FIj3
+R3
+!s105 fifo_uart_sv_unit
+S1
+Z8 dC:/Users/Dell/Desktop/FYP material/FIFO/FIFO_UART
+w1747029880
+8fifo_uart.sv
+Ffifo_uart.sv
+L0 1
+R4
+r1
+!s85 0
+31
+Z9 !s108 1747243902.000000
+!s107 fifo_uart.sv|
+!s90 -reportprogress|300|fifo_uart.sv|
+!i113 1
+R6
+vfifo_uart_tb
+R1
+R7
+!i10b 1
+!s100 :dafohTHolI:CIUV0Q5I]3
+I9_Q[acTMOkB`Oz2<;;DM33
+R3
+!s105 fifo_uart_tb_sv_unit
+S1
+R8
+w1747029905
+8fifo_uart_tb.sv
+Ffifo_uart_tb.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R9
+!s107 fifo_uart_tb.sv|
+!s90 -reportprogress|300|fifo_uart_tb.sv|
+!i113 1
+R6

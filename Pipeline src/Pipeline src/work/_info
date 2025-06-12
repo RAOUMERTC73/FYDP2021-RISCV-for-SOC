@@ -1,0 +1,485 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/Pipeline src
+vALU
+Z1 !s110 1737052072
+!i10b 1
+!s100 ^O6W7Ak@RL2SbnH67LcJ;3
+IZPl@jHX`oTfRF7Q1QzgZ_1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Users/RAO/Desktop/Desktop/Pipeline src/Pipeline src
+w1725202315
+8ALU.v
+FALU.v
+L0 2
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1737052072.000000
+Z6 !s107 Hazard_unit.v|Data_Memory.v|ALU.v|Sign_Extend.v|Register_File.v|Main_Decoder.v|ALU_Decoder.v|Control_Unit_Top.v|Instruction_Memory.v|Mux.v|PC_Adder.v|PC.v|Writeback_Cycle.v|Memory_Cycle.v|Execute_Cycle.v|Decode_Cycle.v|Fetch_Cycle.v|pipeline_tb.v|Pipeline_Top.v|
+Z7 !s90 Pipeline_Top.v|pipeline_tb.v|
+!i113 1
+Z8 tCvgOpt 0
+n@a@l@u
+vALU_Decoder
+R1
+!i10b 1
+!s100 ?=<B@WMFmFDed^OWCImm`1
+I_eOamVfUf^bZ>?d=UZW6H1
+R2
+R3
+w1725202309
+8ALU_Decoder.v
+FALU_Decoder.v
+L0 2
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+n@a@l@u_@decoder
+vControl_Unit_Top
+R1
+!i10b 1
+!s100 A10nMN@]9Ulo2`W44H@5H3
+I`fKC?V_nf9aA3_z@3A3__2
+R2
+R3
+w1725202322
+8Control_Unit_Top.v
+FControl_Unit_Top.v
+L0 5
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+n@control_@unit_@top
+vData_Memory
+R1
+!i10b 1
+!s100 o48k?`zVh0?V=Fh6ze;=F2
+IV37:D:nH4PV`Ni]z^0J@83
+R2
+R3
+w1725202328
+8Data_Memory.v
+FData_Memory.v
+L0 3
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+n@data_@memory
+vdecode_cycle
+R1
+!i10b 1
+!s100 A^`Phgm6SJYLmc=UbbDCh0
+IDoCWnRl@b9d2=UHVZ^Yg03
+R2
+R3
+w1725202335
+8Decode_Cycle.v
+FDecode_Cycle.v
+L0 3
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+vexecute_cycle
+R1
+!i10b 1
+!s100 W=;gJgEF?129>n=X2Sk=T3
+Il[^BeVgD0]k84_XRzMCk21
+R2
+R3
+w1725202342
+8Execute_Cycle.v
+FExecute_Cycle.v
+L0 3
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+vfetch_cycle
+R1
+!i10b 1
+!s100 jR=m=6ZFb_<dcJX6GU;;R2
+IgP6XVBcHCA;US6zh=CjHf2
+R2
+R3
+w1725202348
+8Fetch_Cycle.v
+FFetch_Cycle.v
+L0 2
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+vhazard_unit
+R1
+!i10b 1
+!s100 egYzkDg1k<CDF]dQYzX871
+ICTKfazW@JN:`]T[?o`87f2
+R2
+R3
+w1725202354
+8Hazard_unit.v
+FHazard_unit.v
+L0 2
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+vInstruction_Memory
+R1
+!i10b 1
+!s100 `Xlh?l3C5a8g2SJkcJS3N1
+Il`G9[PhQ5>5ZBjkz?H1zh2
+R2
+R3
+w1725202361
+8Instruction_Memory.v
+FInstruction_Memory.v
+L0 2
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+n@instruction_@memory
+vMain_Decoder
+R1
+!i10b 1
+!s100 =j68nmMTD[;8D0jfoQ2RW0
+IObEg8Lz1[l=76GY6MAn=;0
+R2
+R3
+w1725202367
+8Main_Decoder.v
+FMain_Decoder.v
+L0 2
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+n@main_@decoder
+vmemory_cycle
+R1
+!i10b 1
+!s100 kcd4a347ffc@>olm@MRz20
+IM2T;hJLUTZ^NKhjJ0]1dn0
+R2
+R3
+w1725202376
+8Memory_Cycle.v
+FMemory_Cycle.v
+L0 3
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+vMux
+R1
+!i10b 1
+!s100 jO[2<k]C5Xne;U4Nl_=Tb1
+I4nNU<`NJJho_=fGiDki611
+R2
+R3
+Z9 w1725202381
+Z10 8Mux.v
+Z11 FMux.v
+L0 2
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+n@mux
+vMux_3_by_1
+R1
+!i10b 1
+!s100 @9F6i<KIROFTTYaUWHd1o1
+ImHUPAI=jo8oz9CffS<]NK1
+R2
+R3
+R9
+R10
+R11
+L0 12
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+n@mux_3_by_1
+vPC_Adder
+R1
+!i10b 1
+!s100 6`6aFZ9LP7elbR0DPLajd0
+IUG?aX43Q6QjONk@@4_6P^0
+R2
+R3
+w1725202390
+8PC_Adder.v
+FPC_Adder.v
+L0 3
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+n@p@c_@adder
+vPC_Module
+R1
+!i10b 1
+!s100 EkKfD4>5RzC>1d1P:U[l<1
+IcRLW]`;9`lUR5]DTg0;=T3
+R2
+R3
+w1725202395
+8PC.v
+FPC.v
+L0 3
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+n@p@c_@module
+vPipeline_tb
+!s110 1725544022
+!i10b 1
+!s100 aZmdH94A>8k=nbeKd]>`_1
+Io4TcjgWPOQG]b]zz_MFY10
+R2
+R0
+w1725544014
+Z12 8pipeline_tb.v
+Z13 Fpipeline_tb.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1725544021.000000
+Z14 !s107 Hazard_unit.v|Data_Memory.v|ALU.v|Sign_Extend.v|Register_File.v|Main_Decoder.v|ALU_Decoder.v|Control_Unit_Top.v|Instruction_Memory.v|Mux.v|PC_Adder.v|PC.v|Writeback_Cycle.v|Memory_Cycle.v|Execute_Cycle.v|Decode_Cycle.v|Fetch_Cycle.v|pipeline_tb.v|pipeline_Top.v|
+Z15 !s90 pipeline_Top.v|pipeline_tb.v|
+!i113 1
+R8
+n@pipeline_tb
+vPipeline_Top
+!s110 1725544411
+!i10b 1
+!s100 BO@IH<KiVIBA>I[b5a?Uh3
+I39iUCJIe4>mZUU?9EaGVa3
+R2
+R0
+w1725544402
+8pipeline_Top.v
+Fpipeline_Top.v
+Z16 L0 19
+R4
+r1
+!s85 0
+31
+!s108 1725544410.000000
+R14
+R15
+!i113 1
+R8
+n@pipeline_@top
+vPipeline_top
+R1
+!i10b 1
+!s100 2?XzV;Z[_??gOGW9i_Vha3
+I5KA:`kMd1R;7>jX_MLm0d0
+R2
+R3
+w1737038921
+8Pipeline_Top.v
+FPipeline_Top.v
+R16
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+n@pipeline_top
+vRegister_File
+R1
+!i10b 1
+!s100 ADRk2m7FYdamO;3RZ;2cI1
+IcZ_bPdJ:mI2Dm=T`R564G3
+R2
+R3
+w1725202432
+8Register_File.v
+FRegister_File.v
+L0 2
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+n@register_@file
+vSign_Extend
+R1
+!i10b 1
+!s100 1GILB:]RZI@=?;=<QSo8Z3
+IR:`GIcYeb51_]=O1[No;Z2
+R2
+R3
+w1725202464
+8Sign_Extend.v
+FSign_Extend.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+n@sign_@extend
+vtb
+R1
+!i10b 1
+!s100 B<9=c:Lh836i3zoJNFC2M0
+Io]_PcfhBSKJC<nMeH3=L_3
+R2
+R3
+w1725544352
+R12
+R13
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+vtop_tb
+!s110 1725543818
+!i10b 1
+!s100 @5>DT1NZ_Xl24b=[1l5Al2
+IDXAK@FDJQ3I>;H2WhIdYE3
+R2
+R0
+w1725543760
+R12
+R13
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1725543817.000000
+R14
+R15
+!i113 1
+R8
+vwriteback_cycle
+R1
+!i10b 1
+!s100 _ER29f;;c;k[=o?`>Y<N]3
+IUlHV]`>e220I0FRPLWF?f1
+R2
+R3
+w1725202471
+8Writeback_Cycle.v
+FWriteback_Cycle.v
+L0 2
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8

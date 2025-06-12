@@ -1,0 +1,17 @@
+# vsim i2c_top_tb 
+# Start time: 15:59:20 on Feb 03,2025
+# Loading sv_std.std
+# Loading work.i2c_top_tb
+# Loading work.i2c_top
+# Loading work.i2c_master
+# Loading work.i2c_Slave
+add wave -position insertpoint sim:/i2c_top_tb/dut/master/*
+add wave -position insertpoint sim:/i2c_top_tb/dut/slave/*
+run -all
+# [WR] din : 4 addr: 1
+# [WR] din : 1 addr: 5
+# ** Note: $stop    : ./i2c_top_tb.sv(45)
+#    Time: 176045 ps  Iteration: 2  Instance: /i2c_top_tb
+# Break in Module i2c_top_tb at ./i2c_top_tb.sv line 45
+# End time: 16:03:50 on Feb 03,2025, Elapsed time: 0:04:30
+# Errors: 0, Warnings: 0

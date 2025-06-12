@@ -1,0 +1,31 @@
+# vsim tb 
+# Start time: 19:35:02 on Jan 16,2025
+# Loading work.tb
+# Loading work.Pipeline_top
+# Loading work.fetch_cycle
+# Loading work.Mux
+# Loading work.PC_Module
+# Loading work.Instruction_Memory
+# Loading work.PC_Adder
+# Loading work.decode_cycle
+# Loading work.Control_Unit_Top
+# Loading work.Main_Decoder
+# Loading work.ALU_Decoder
+# Loading work.Register_File
+# Loading work.Sign_Extend
+# Loading work.execute_cycle
+# Loading work.Mux_3_by_1
+# Loading work.ALU
+# Loading work.memory_cycle
+# Loading work.Data_Memory
+# Loading work.writeback_cycle
+# Loading work.hazard_unit
+do {C:/Users/RAO/Desktop/Desktop/Pipeline src/Pipeline src/pipeline_scp_wave1.do}
+# WARNING: No extended dataflow license exists
+run -all
+# ** Note: $finish    : pipeline_tb.v(15)
+#    Time: 1200 ps  Iteration: 0  Instance: /tb
+# 1
+# Break in Module tb at pipeline_tb.v line 15
+# End time: 19:43:47 on Jan 16,2025, Elapsed time: 0:08:45
+# Errors: 0, Warnings: 1

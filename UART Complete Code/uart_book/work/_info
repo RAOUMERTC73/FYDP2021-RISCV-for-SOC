@@ -1,0 +1,194 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/Dell/Downloads/uart_book
+vfifo
+Z0 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z1 !s110 1732814500
+!i10b 1
+!s100 ]Pz39N6FGi_`E21a_>;NF1
+I`BiQkCAoVHk7lVlR6JUNE3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+!s105 fifo_sv_unit
+S1
+Z3 dC:/Users/Dell/Desktop/FYP material/UART/uart_book
+w1732677468
+8fifo.sv
+Ffifo.sv
+L0 1
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1732814500.000000
+Z6 !s107 uart_tb.sv|mod_m_counter.sv|fifo.sv|uart_rx.sv|uart_tx.sv|uart_top.sv|
+Z7 !s90 -reportprogress|300|uart_top.sv|uart_tx.sv|uart_rx.sv|fifo.sv|mod_m_counter.sv|uart_tb.sv|
+!i113 1
+Z8 tCvgOpt 0
+vmod_m_counter
+R0
+R1
+!i10b 1
+!s100 WLzB;H=R9;:58KzI3iC:N1
+IES8N4OGG1NM]>9G1R0D0z0
+R2
+!s105 mod_m_counter_sv_unit
+S1
+R3
+w1731332630
+8mod_m_counter.sv
+Fmod_m_counter.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+vuart_rx
+R0
+!s110 1732814643
+!i10b 1
+!s100 ZaSfML3Mcj94PNSWP9:iN2
+ISl`anW`MoUYHASoCze]m92
+R2
+!s105 uart_rx_sv_unit
+S1
+R3
+Z9 w1731327378
+8uart_rx.sv
+Fuart_rx.sv
+L0 1
+R4
+r1
+!s85 0
+31
+Z10 !s108 1732814643.000000
+Z11 !s107 uart_rx_tb.sv|uart_rx.sv|
+Z12 !s90 -reportprogress|300|uart_rx.sv|uart_rx_tb.sv|
+!i113 1
+R8
+vuart_rx_tb
+R0
+!s110 1732814644
+!i10b 1
+!s100 hnMjH0`9V]RmjlUz7d9923
+IB:Bd6dn<[CC4JhL>@;KK01
+R2
+!s105 uart_rx_tb_sv_unit
+S1
+R3
+w1732701253
+8uart_rx_tb.sv
+Fuart_rx_tb.sv
+L0 3
+R4
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 1
+R8
+vuart_tb
+R0
+R1
+!i10b 1
+!s100 cRF[=lcEB21cfWOT^]05Y3
+IenFjjd45RCbklPYncOen=1
+R2
+!s105 uart_tb_sv_unit
+S1
+R3
+w1732814453
+8uart_tb.sv
+Fuart_tb.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+vuart_top
+R0
+R1
+!i10b 1
+!s100 i<81LYF5jC2hO;e9BM`^13
+I0L_U2]nYMHJn00F=hfn7Z0
+R2
+!s105 uart_top_sv_unit
+S1
+R3
+w1732814468
+8uart_top.sv
+Fuart_top.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+vuart_tx
+R0
+R1
+!i10b 1
+!s100 Ui[3C5XbF;o3@k]HCj_c_1
+IEF;F:GQhS6K2JAS[^3`T90
+R2
+!s105 uart_tx_sv_unit
+S1
+R3
+R9
+8uart_tx.sv
+Fuart_tx.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 1
+R8
+vuart_tx_tb
+R0
+!s110 1732810316
+!i10b 1
+!s100 JPA<:VRR2Q<S^5?8l2Ak^0
+I@DNRP9MkA5fb7em<z^e`E0
+R2
+!s105 uart_tx_tb_sv_unit
+S1
+R3
+w1732701557
+8uart_tx_tb.sv
+Fuart_tx_tb.sv
+L0 3
+R4
+r1
+!s85 0
+31
+!s108 1732810316.000000
+!s107 uart_tx_tb.sv|uart_tx.sv|
+!s90 -reportprogress|300|uart_tx.sv|uart_tx_tb.sv|
+!i113 1
+R8
