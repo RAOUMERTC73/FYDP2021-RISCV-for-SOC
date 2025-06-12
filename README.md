@@ -66,39 +66,11 @@ The system allows a user (master) to send 32-bit data to the RISC-V processor th
 - Real-time FPGA implementation for integration testing
 
 ---
-
----
-
-## 📦 Folder Structure
-
-FYDP2021-RISCV-for-SOC/
-│
-├── rtl/ # SystemVerilog source files
-│ ├── riscv_core.sv
-│ ├── uart_tx.sv
-│ ├── uart_rx.sv
-│ ├── i2c_master.sv
-│ └── ...
-│
-├── tb/ # Testbenches for simulation
-│ ├── tb_uart.sv
-│ ├── tb_i2c.sv
-│ ├── tb_riscv_core.sv
-│ └── ...
-│
-├── docs/ # Reports, block diagrams, references
-│ └── Final_Report.pdf
-│
-├── README.md # Project documentation
-└── ...
-
 ## 👨‍💻 Authors
-# Final Year Design Project – Telecommunication Engineering TC-431 
-# NED University of Engineering & Technology  
-# GitHub: [RAOUMERTC73](https://github.com/RAOUMERTC73)
+ Final Year Design Project – Telecommunication Engineering TC-431 
+ NED University of Engineering & Technology  
+ GitHub: [RAOUMERTC73](https://github.com/RAOUMERTC73)
 
----
----
 ## 📌 License
 
 This project is developed for educational purposes under academic fair use. For other uses, please contact the author.
