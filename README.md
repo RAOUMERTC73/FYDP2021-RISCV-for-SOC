@@ -1,77 +1,110 @@
 # FYDP2021-RISCV-for-SOC
-# RISCV for System on Chip (SoC)
-
-This project implements a 32-bit RISC-V processor-based System on Chip (SoC) that communicates with external devices through UART and I2C serial communication protocols. The system is designed for efficient processing and transfer of 32-bit data words using a pipelined RISC-V core integrated with memory, UART, and I2C interfaces.
-
----
-
-## 🚀 Overview
-
-The system allows a user (master) to send 32-bit data to the RISC-V processor through a UART interface. The processor then executes instructions from an instruction memory (IMEM) to process the data. The resulting data is sent back to a slave device via the I2C protocol. External memory modules (IMEM & DMEM) are used for instruction and data storage.
-
----
-
-## 🧠 Features
-
-- Custom 32-bit RISC-V core developed using **SystemVerilog**
-- **5-stage pipeline architecture** to optimize performance
-- **UART protocol** for receiving input data from the user (master)
-- **I2C protocol** for sending processed output to external peripherals (slaves)
-- Modular system integration on **FPGA**
-- Verified through simulation and real-time FPGA implementation
-
----
-
-## 🧩 System Architecture
-
-### 1. **RISC-V Processor Design**
-- Implemented in SystemVerilog
-- Adheres to RISC-V ISA specifications
-- Performs arithmetic, logic, control flow, and memory operations
-- Integrated with external instruction and data memory blocks
-
-### 2. **UART Communication**
-- Used to transmit 32-bit input data from the master (user) to the processor
-- Supports serial data transfer with adaptive baud rate
-- Input data stored temporarily in a memory bank before processing
-
-### 3. **I2C Communication**
-- Retrieves and transmits processed data to the slave/output device
-- Ensures synchronized communication with peripheral devices
-- Allows integration with sensors or additional SoC modules
-
-### 4. **System Integration and Testing**
-- RISC-V, UART, and I2C modules integrated and tested under various conditions
-- Verified via simulation and FPGA-based validation
-
----
-
-## 🔁 Functional Flow
-
-1. **Data Input (UART)**  
-   Master sends 32-bit data words to the processor through UART.
-
-2. **Instruction Execution (RISC-V)**  
-   Processor fetches instructions from IMEM and processes input data accordingly.
-
-3. **Data Output (I2C)**  
-   Output data is sent to the slave device using I2C protocol.
-
----
-
-## 🧪 Simulation and Validation
-
-- Testbenches created for individual modules (UART, I2C, RISC-V)
-- Simulated using ModelSim / Vivado
-- Real-time FPGA implementation for integration testing
-
 ---
 ## 👨‍💻 Authors
  Final Year Design Project – Telecommunication Engineering TC-431 
  NED University of Engineering & Technology  
  GitHub: [RAOUMERTC73](https://github.com/RAOUMERTC73)
 
-## 📌 License
+# RISC-V System-on-Chip (SoC) for Communication
 
-This project is developed for educational purposes under academic fair use. For other uses, please contact the author.
+Welcome to the RISC-V SoC for Communication project! This repository contains the design, implementation, and testbenches for a custom RISC-V-based System-on-Chip (SoC) tailored for communication systems. This project was developed as part of the Final Year Design Project (FYDP-11) for 2021.
 
+## Table of Contents
+
+- [Project Overview](#project-overview)
+- [Features](#features)
+- [Directory Structure](#directory-structure)
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+- [Testing](#testing)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Project Overview
+
+This project implements a RISC-V-based SoC, focusing on communication applications. The design aims to provide a customizable, open-source hardware solution for research and development in digital communication systems.
+
+### Objectives
+
+- Develop a RISC-V CPU core compatible with the RV32I instruction set.
+- Integrate communication peripherals (UART, SPI, etc.) for real-world interfacing.
+- Provide testbenches and simulation support for verification.
+- Enable extensibility for future enhancements or custom accelerators.
+
+## Features
+
+- **RISC-V CPU Core:** Implements the base RV32I instruction set.
+- **Communication Peripherals:** UART, SPI, and other modules for data transfer.
+- **Memory Subsystem:** On-chip RAM and support for memory-mapped I/O.
+- **Verilog HDL:** All modules written in synthesizable Verilog.
+- **Testbenches:** Simulation environments for module verification.
+- **Documentation:** Source code is documented for ease of understanding and extension.
+
+## Directory Structure
+
+```
+.
+├── rtl/             # RTL (Register Transfer Level) Verilog source code
+├── tb/              # Testbenches for simulation
+├── docs/            # Documentation and project reports
+├── scripts/         # Simulation and build scripts
+├── synthesis/       # Synthesis results and constraints
+└── README.md        # Project README (this file)
+```
+
+## Getting Started
+
+### Prerequisites
+
+- Verilog simulator (e.g., Icarus Verilog, ModelSim)
+- Make (for build automation)
+- Python (optional, for scripts)
+
+### Cloning the Repository
+
+```bash
+git clone https://github.com/kashaf619/FYDP-11-2021-RISC-V-SoC-for-Communication.git
+cd FYDP-11-2021-RISC-V-SoC-for-Communication
+```
+
+## Usage
+
+### Simulating the SoC
+
+1. Navigate to the `tb/` directory.
+2. Run the simulation using your preferred tool (e.g., Icarus Verilog):
+
+```bash
+cd tb
+make
+```
+
+### Synthesizing the Design
+
+Check the `synthesis/` folder for synthesis scripts and instructions for your preferred FPGA/ASIC toolchain.
+
+## Testing
+
+Testbenches are provided in the `tb/` directory for key modules. Use your Verilog simulator to verify functionality:
+
+```bash
+cd tb
+make test
+```
+
+## Contributing
+
+Contributions are welcome! Please open issues or submit pull requests to help improve the project.
+
+1. Fork this repository.
+2. Create a new branch for your feature or bugfix.
+3. Commit your changes.
+4. Open a pull request describing your modifications.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+---
+
+*Developed as part of FYDP-11 (2021) by [kashaf619](https://github.com/kashaf619).*  
