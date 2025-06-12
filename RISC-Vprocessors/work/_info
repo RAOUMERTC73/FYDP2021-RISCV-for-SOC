@@ -1,0 +1,424 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/Rao/Desktop/RISC-Vprocessors
+vadder
+Z0 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z1 !s110 1737033739
+!i10b 1
+!s100 [^><YO^n^zkH=KRT1]N=03
+IlaEUXjdFKc[[SD60iH4kO2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 !s105 top_sv_unit
+S1
+Z4 dC:/Users/RAO/Desktop/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors
+w1729277556
+8adder.sv
+Fadder.sv
+L0 2
+Z5 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z6 !s108 1737033739.000000
+Z7 !s107 dmem.sv|imem.sv|alu.sv|extend.sv|regfile.sv|mux3.sv|mux2.sv|adder.sv|flopr.sv|datapath.sv|aludec.sv|maindec.sv|controller.sv|riscvsingle.sv|top_tb.sv|top.sv|
+Z8 !s90 top.sv|top_tb.sv|
+!i113 1
+Z9 tCvgOpt 0
+valu
+R0
+R1
+!i10b 1
+!s100 5m74n?=R6Dj[`dhdj87V60
+Ik`Xn2QM;VHa]PFiegaCc[1
+R2
+R3
+S1
+R4
+w1729277571
+8alu.sv
+Falu.sv
+L0 2
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R9
+valudec
+R0
+R1
+!i10b 1
+!s100 c?R>1U7;R^?[HnfH5Y5>D3
+IP6Xa0Vk@[>Pl0ZLd3oodJ1
+R2
+R3
+S1
+R4
+w1729277584
+8aludec.sv
+Faludec.sv
+L0 2
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R9
+vcontroller
+R0
+R1
+!i10b 1
+!s100 NB<jjN7YQNaUkKYeO]gc:1
+ImDH2<NJXiDRB3NYMkYi0F1
+R2
+R3
+S1
+R4
+w1729277588
+8controller.sv
+Fcontroller.sv
+L0 4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R9
+vdatapath
+R0
+R1
+!i10b 1
+!s100 >]YGeUIOi3RKKDbaD6P_K1
+I>77B7ao;9ag8`N1aUKjTG0
+R2
+R3
+S1
+R4
+w1729277595
+8datapath.sv
+Fdatapath.sv
+L0 10
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R9
+vdmem
+R0
+R1
+!i10b 1
+!s100 PCe`2`hN07oz`bf[77k5;2
+IzhiDb]1=k;;Jz@A@k<?N^1
+R2
+R3
+S1
+R4
+w1729277608
+8dmem.sv
+Fdmem.sv
+L0 3
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R9
+vextend
+R0
+R1
+!i10b 1
+!s100 G=4V@nMnJL?MG7QGzFSoH1
+I66^WPd_RYc[jRl;<S2oMz3
+R2
+R3
+S1
+R4
+w1729277619
+8extend.sv
+Fextend.sv
+L0 2
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R9
+vextend_tb
+R0
+!s110 1729265271
+!i10b 1
+!s100 7A3Cf>N0QBW7h>=>L2Xg92
+IU7C`]lO61B3Ldk7knE<8J2
+R2
+!s105 extend_tb_sv_unit
+S1
+Z10 dC:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors
+w1724860151
+8extend_tb.sv
+Fextend_tb.sv
+L0 1
+R5
+r1
+!s85 0
+31
+!s108 1729265270.000000
+!s107 extend_tb.sv|.\extend.sv|
+!s90 .\extend.sv|extend_tb.sv|
+!i113 1
+R9
+vflopr
+R0
+R1
+!i10b 1
+!s100 9[K5iH<0RM>KeiSaCQA7l3
+If:X0Ao<MfJ4Yan7KVmDE90
+R2
+R3
+S1
+R4
+w1729277626
+8flopr.sv
+Fflopr.sv
+L0 2
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R9
+vimem
+R0
+R1
+!i10b 1
+!s100 emKPbG;BBhnfa_QJmM=E73
+IOQRobkUcXL[BgNi?OHGj=3
+R2
+R3
+S1
+R4
+w1737033688
+8imem.sv
+Fimem.sv
+L0 3
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R9
+vmaindec
+R0
+R1
+!i10b 1
+!s100 ]5?3VFTW1VC0`2:G]F0_U2
+IcI@:jX18MHLK?Ql8c;nZS1
+R2
+R3
+S1
+R4
+w1729277659
+8maindec.sv
+Fmaindec.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R9
+vmaindec_tb
+R0
+!s110 1729267646
+!i10b 1
+!s100 S_Ti_nElQiaOXH_7bbF8h2
+IS`OWniORX2Q<jNoR;kSIM3
+R2
+!s105 maindec_tb_sv_unit
+S1
+R10
+w1729266877
+8.\maindec_tb.sv
+F.\maindec_tb.sv
+L0 1
+R5
+r1
+!s85 0
+31
+!s108 1729267645.000000
+!s107 .\maindec_tb.sv|.\maindec.sv|
+!s90 .\maindec.sv|.\maindec_tb.sv|
+!i113 1
+R9
+vmux2
+R0
+R1
+!i10b 1
+!s100 d9YHRYR=@L8WT[@aMQTbO0
+ILS::^;TIoc8U9mNmZ84Pn0
+R2
+R3
+S1
+R4
+w1729277669
+8mux2.sv
+Fmux2.sv
+L0 2
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R9
+vmux3
+R0
+R1
+!i10b 1
+!s100 e;C2AbGbiRCYeSgERa<XS3
+IP91dAZe7B]1ik4gZL`;I;3
+R2
+R3
+S1
+R4
+w1729277681
+8mux3.sv
+Fmux3.sv
+L0 3
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R9
+vregfile
+R0
+R1
+!i10b 1
+!s100 2FP[gV1DeLl:Ainc96fAQ0
+Ihc;QiNlBaKR>8_D73@jZl0
+R2
+R3
+S1
+R4
+w1729277693
+8regfile.sv
+Fregfile.sv
+L0 2
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R9
+vriscvsingle
+R0
+R1
+!i10b 1
+!s100 YKk4bW__hRZ]Q6b=z>d3L2
+Id4lXFg<=FZSzmh`YU_W^f3
+R2
+R3
+S1
+R4
+w1729277699
+8riscvsingle.sv
+Friscvsingle.sv
+L0 85
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R9
+vtop
+R0
+R1
+!i10b 1
+!s100 96ToRL0nFfUHK3CAPM_eY2
+I:hM:=Jfi5SJXYY1Y1e`i^1
+R2
+R3
+S1
+R4
+w1729277791
+8top.sv
+Ftop.sv
+L0 8
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R9
+vtop_tb
+R0
+R1
+!i10b 1
+!s100 8`=oeNnJ:X0eA`d]@AY4m3
+I7D0J_FYRYW?n6W0n3d<lG1
+R2
+!s105 top_tb_sv_unit
+S1
+R4
+w1729277779
+8top_tb.sv
+Ftop_tb.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R9

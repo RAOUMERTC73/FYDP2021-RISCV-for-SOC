@@ -1,0 +1,70 @@
+# vsim tb_pipelined_riscv 
+# Start time: 23:40:08 on Sep 06,2024
+# Loading sv_std.std
+# Loading work.tb_pipelined_riscv
+# Loading work.pipelined_riscv
+# Loading work.mux_pcf
+# Loading work.Program_Counter
+# Loading work.pcplus
+# Loading work.instruction_memory
+# Loading work.decode_register
+# Loading work.registerFile
+# Loading work.imm_ext
+# Loading work.main_decoder
+# Loading work.alu_decoder
+# Loading work.pcsource
+# Loading work.execute_register
+# Loading work.forwardAE
+# Loading work.forwardBE
+# Loading work.alusrcE
+# Loading work.pctarget
+# Loading work.ALU
+# Loading work.memory_register
+# Loading work.data_memory
+# Loading work.writeback_register
+# Loading work.resultsrcw
+# Loading work.hazard_unit
+add wave -position insertpoint sim:/tb_pipelined_riscv/*
+run
+run
+# Simulation succeeded
+# ** Note: $stop    : tb_pipelined_riscv.sv(31)
+#    Time: 195 ps  Iteration: 1  Instance: /tb_pipelined_riscv
+# Break in Module tb_pipelined_riscv at tb_pipelined_riscv.sv line 31
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# End time: 23:44:04 on Sep 06,2024, Elapsed time: 0:03:56
+# Errors: 0, Warnings: 0

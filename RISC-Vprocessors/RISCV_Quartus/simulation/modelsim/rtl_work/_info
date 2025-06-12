@@ -1,0 +1,410 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus/simulation/modelsim
+vadder
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1724708868
+!i10b 1
+!s100 [^><YO^n^zkH=KRT1]N=03
+I`]UN8REDR>T9XUC1BXG2V1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+!s105 adder_sv_unit
+S1
+R0
+w1724343109
+8C:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus/adder.sv
+FC:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus/adder.sv
+L0 2
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1724708868.000000
+!s107 C:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus/adder.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus|C:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus/adder.sv|
+!i113 1
+Z6 o-sv -work work
+Z7 !s92 -sv -work work {+incdir+C:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus}
+Z8 tCvgOpt 0
+valu
+R1
+R2
+!i10b 1
+!s100 5m74n?=R6Dj[`dhdj87V60
+IH2OQ5EE:zPS^j@@@jT1<n0
+R3
+!s105 alu_sv_unit
+S1
+R0
+w1724343151
+8C:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus/alu.sv
+FC:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus/alu.sv
+L0 2
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus/alu.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus|C:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus/alu.sv|
+!i113 1
+R6
+R7
+R8
+valudec
+R1
+!s110 1724708869
+!i10b 1
+!s100 c?R>1U7;R^?[HnfH5Y5>D3
+IIJ>PTVPmcd8:R>Z^Y[WF]3
+R3
+!s105 aludec_sv_unit
+S1
+R0
+w1724343200
+8C:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus/aludec.sv
+FC:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus/aludec.sv
+L0 2
+R4
+r1
+!s85 0
+31
+Z9 !s108 1724708869.000000
+!s107 C:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus/aludec.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus|C:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus/aludec.sv|
+!i113 1
+R6
+R7
+R8
+vcontroller
+R1
+Z10 !s110 1724708870
+!i10b 1
+!s100 ?43W77dG@[AV<aFooDKL;2
+IX56_ZNB>lP9=I1^jQzL@i1
+R3
+!s105 controller_sv_unit
+S1
+R0
+w1724348442
+8C:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus/controller.sv
+FC:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus/controller.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus/controller.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus|C:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus/controller.sv|
+!i113 1
+R6
+R7
+R8
+vdatapath
+R1
+R10
+!i10b 1
+!s100 CLfd>MWc^M3@SOLGaffBP0
+IYDTAi[OfXUgZ0Ab`@V^n[2
+R3
+!s105 datapath_sv_unit
+S1
+R0
+w1724348314
+8C:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus/datapath.sv
+FC:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus/datapath.sv
+L0 1
+R4
+r1
+!s85 0
+31
+Z11 !s108 1724708870.000000
+!s107 C:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus/datapath.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus|C:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus/datapath.sv|
+!i113 1
+R6
+R7
+R8
+vdmem
+R1
+Z12 !s110 1724708871
+!i10b 1
+!s100 Lc`;IfF^lQU>;SU^@An?43
+IRdk<h<XLI1BBFmZOTof`V1
+R3
+!s105 dmem_sv_unit
+S1
+R0
+w1724354905
+8C:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus/dmem.sv
+FC:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus/dmem.sv
+L0 3
+R4
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus/dmem.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus|C:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus/dmem.sv|
+!i113 1
+R6
+R7
+R8
+vextend
+R1
+R12
+!i10b 1
+!s100 G=4V@nMnJL?MG7QGzFSoH1
+I`L4KUICHMEb_HnG4d5;Qo0
+R3
+!s105 extend_sv_unit
+S1
+R0
+w1724343328
+8C:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus/extend.sv
+FC:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus/extend.sv
+L0 2
+R4
+r1
+!s85 0
+31
+!s108 1724708871.000000
+!s107 C:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus/extend.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus|C:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus/extend.sv|
+!i113 1
+R6
+R7
+R8
+vflopr
+R1
+!s110 1724708872
+!i10b 1
+!s100 9[K5iH<0RM>KeiSaCQA7l3
+ILmMzU7;43JjLcPL1FWjM52
+R3
+!s105 flopr_sv_unit
+S1
+R0
+w1724343361
+8C:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus/flopr.sv
+FC:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus/flopr.sv
+L0 2
+R4
+r1
+!s85 0
+31
+Z13 !s108 1724708872.000000
+!s107 C:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus/flopr.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus|C:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus/flopr.sv|
+!i113 1
+R6
+R7
+R8
+vimem
+R1
+Z14 !s110 1724708873
+!i10b 1
+!s100 cLCPA31nB3CHZk1ilKkGP1
+IOA4Uo7jhTe[hGmm@DNH<L0
+R3
+!s105 imem_sv_unit
+S1
+R0
+w1724708811
+8C:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus/imem.sv
+FC:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus/imem.sv
+L0 1
+R4
+r1
+!s85 0
+31
+R13
+!s107 C:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus/imem.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus|C:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus/imem.sv|
+!i113 1
+R6
+R7
+R8
+vmaindec
+R1
+R14
+!i10b 1
+!s100 ]5?3VFTW1VC0`2:G]F0_U2
+InY;Mfozn0Ama1WKAmJKf<0
+R3
+!s105 maindec_sv_unit
+S1
+R0
+w1724343481
+8C:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus/maindec.sv
+FC:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus/maindec.sv
+L0 1
+R4
+r1
+!s85 0
+31
+Z15 !s108 1724708873.000000
+!s107 C:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus/maindec.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus|C:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus/maindec.sv|
+!i113 1
+R6
+R7
+R8
+vmux2
+R1
+R14
+!i10b 1
+!s100 BcBP7YekEcRY^E47me>Yd1
+IKJHE^fPKNHL1faFn1V`[T3
+R3
+!s105 mux2_sv_unit
+S1
+R0
+w1724348459
+8C:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus/mux2.sv
+FC:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus/mux2.sv
+L0 2
+R4
+r1
+!s85 0
+31
+R15
+!s107 C:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus/mux2.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus|C:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus/mux2.sv|
+!i113 1
+R6
+R7
+R8
+vmux3
+R1
+Z16 !s110 1724708874
+!i10b 1
+!s100 e;C2AbGbiRCYeSgERa<XS3
+ICnFbID3eFfYd5PGCago5f1
+R3
+!s105 mux3_sv_unit
+S1
+R0
+w1724343546
+8C:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus/mux3.sv
+FC:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus/mux3.sv
+L0 3
+R4
+r1
+!s85 0
+31
+Z17 !s108 1724708874.000000
+!s107 C:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus/mux3.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus|C:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus/mux3.sv|
+!i113 1
+R6
+R7
+R8
+vregfile
+R1
+R16
+!i10b 1
+!s100 2FP[gV1DeLl:Ainc96fAQ0
+IbXedMC9ZJM6SDKKHMX[m32
+R3
+!s105 regfile_sv_unit
+S1
+R0
+w1724347000
+8C:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus/regfile.sv
+FC:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus/regfile.sv
+L0 2
+R4
+r1
+!s85 0
+31
+R17
+!s107 C:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus/regfile.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus|C:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus/regfile.sv|
+!i113 1
+R6
+R7
+R8
+vriscvsingle
+R1
+!s110 1724708875
+!i10b 1
+!s100 CzAe>FOfVTBHhK;;g=V]C0
+IMKi;YEfGVcCBc_H=H2@aA0
+R3
+!s105 riscvsingle_sv_unit
+S1
+R0
+w1724348962
+8C:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus/riscvsingle.sv
+FC:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus/riscvsingle.sv
+L0 1
+R4
+r1
+!s85 0
+31
+Z18 !s108 1724708875.000000
+!s107 C:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus/riscvsingle.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus|C:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus/riscvsingle.sv|
+!i113 1
+R6
+R7
+R8
+vtop
+R1
+!s110 1724708867
+!i10b 1
+!s100 cCl>Fj@4>SfJYm3fed:o^2
+IAUDK`_FWD<EHLOW=<`7WU1
+R3
+!s105 top_sv_unit
+S1
+R0
+w1724590402
+8C:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus/top.sv
+FC:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus/top.sv
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1724708867.000000
+!s107 C:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus/top.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus|C:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus/top.sv|
+!i113 1
+R6
+R7
+R8
+vtop_tb
+R1
+!s110 1724708876
+!i10b 1
+!s100 oV@dZoCGWWYnTO6Y@8b?z1
+I1Xc9:n2HE2OUefOdDl@`02
+R3
+!s105 top_tb_sv_unit
+S1
+R0
+w1724702308
+8C:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus/top_tb.sv
+FC:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus/top_tb.sv
+L0 3
+R4
+r1
+!s85 0
+31
+R18
+!s107 C:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus/top_tb.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus|C:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus/top_tb.sv|
+!i113 1
+R6
+R7
+R8

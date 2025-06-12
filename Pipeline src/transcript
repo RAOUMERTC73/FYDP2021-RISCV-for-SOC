@@ -1,7 +1,36 @@
-# vsim .\uart_tb 
-# Start time: 23:23:36 on Jan 16,2025
-# ** Error (suppressible): (vsim-19) Failed to access library '' at "".
-# Invalid argument. (errno = EINVAL)
-# Error loading design
-# End time: 23:23:36 on Jan 16,2025, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 0
+# vsim tb 
+# Start time: 16:31:13 on Nov 24,2024
+# Loading work.tb
+# Loading work.Pipeline_top
+# Loading work.fetch_cycle
+# Loading work.Mux
+# Loading work.PC_Module
+# Loading work.Instruction_Memory
+# Loading work.PC_Adder
+# Loading work.decode_cycle
+# Loading work.Control_Unit_Top
+# Loading work.Main_Decoder
+# Loading work.ALU_Decoder
+# Loading work.Register_File
+# Loading work.Sign_Extend
+# Loading work.execute_cycle
+# Loading work.Mux_3_by_1
+# Loading work.ALU
+# Loading work.memory_cycle
+# Loading work.Data_Memory
+# Loading work.writeback_cycle
+# Loading work.hazard_unit
+do {C:/Users/Home/Desktop/Pipeline src/Pipeline src/pipeline_scp_wave.do}
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Home  Hostname: DESKTOP-JEVB8AI  ProcessID: 34124
+#           Attempting to use alternate WLF file "./wlft8tn938".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft8tn938
+run -a
+# ** Note: $finish    : pipeline_tb.v(15)
+#    Time: 1200 ps  Iteration: 0  Instance: /tb
+# 1
+# Break in Module tb at pipeline_tb.v line 15
+do {C:/Users/Home/Desktop/Pipeline src/Pipeline src/pipeline_scp_wave1.do}
+# End time: 16:34:31 on Nov 24,2024, Elapsed time: 0:03:18
+# Errors: 0, Warnings: 2

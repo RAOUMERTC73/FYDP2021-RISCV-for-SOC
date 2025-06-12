@@ -1,0 +1,283 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/src
+vALU
+Z1 !s110 1723576289
+!i10b 1
+!s100 ?0iK0zzDz_11Q;OHbfe@`1
+IHC2C9oJ`1BA7hFg`?@;FA0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1723402166
+8ALU.v
+FALU.v
+L0 2
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1723576289.000000
+Z5 !s107 Mux.v|PC_Adder.v|Data_Memory.v|Main_Decoder.v|ALU_Decoder.v|Control_Unit_Top.v|ALU.v|Sign_Extend.v|Register_File.v|Instruction_Memory.v|PC.v|Single_Cycle_Top_Tb.v|Single_Cycle_Top.v|
+Z6 !s90 -reportprogress|300|Single_Cycle_Top.v|Single_Cycle_Top_Tb.v|
+!i113 1
+Z7 tCvgOpt 0
+n@a@l@u
+vALU_Decoder
+R1
+!i10b 1
+!s100 ?=<B@WMFmFDed^OWCImm`1
+I_eOamVfUf^bZ>?d=UZW6H1
+R2
+R0
+w1723367257
+8ALU_Decoder.v
+FALU_Decoder.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+n@a@l@u_@decoder
+vControl_Unit_Top
+R1
+!i10b 1
+!s100 z5PdfVNbSAXGWh]BS0FJ=3
+IP`lH^920]nf:5SzKQUEgb1
+R2
+R0
+w1723397622
+8Control_Unit_Top.v
+FControl_Unit_Top.v
+L0 4
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+n@control_@unit_@top
+vData_Memory
+R1
+!i10b 1
+!s100 fXT^Gm=i?JIeVMiYT`jSL2
+IK7XCHdmeI=DHRPC=:FMln2
+R2
+R0
+w1723403883
+8Data_Memory.v
+FData_Memory.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+n@data_@memory
+vInstruction_Memory
+R1
+!i10b 1
+!s100 im?SX8HXJoSX87gC2:aVT3
+IQ_i5kjnAiSj3I9DUPE:1m3
+R2
+R0
+w1723549519
+8Instruction_Memory.v
+FInstruction_Memory.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+n@instruction_@memory
+vMain_Decoder
+R1
+!i10b 1
+!s100 W_g_dYhIEj7Mi9Mz`0JEY2
+Icz>5[27?0L9@_bU82_A>m3
+R2
+R0
+w1723328217
+8Main_Decoder.v
+FMain_Decoder.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+n@main_@decoder
+vMux
+R1
+!i10b 1
+!s100 kI]n2[lLTFPh@H;d3`S@X1
+IkALnlMlQbMkE?S1=iFAzi3
+R2
+R0
+w1723408166
+8Mux.v
+FMux.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+n@mux
+vPC_Adder
+R1
+!i10b 1
+!s100 _aBS]c>7_A@?2e?KGd5Nb1
+I02>Hh16_E7MAzXzM77BTf1
+R2
+R0
+w1723395421
+8PC_Adder.v
+FPC_Adder.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+n@p@c_@adder
+vPC_Module
+R1
+!i10b 1
+!s100 `b<[lA3^z9nCzGPf[4jL:1
+I`FBn73^Dz^WP^MkbGg^1U3
+R2
+R0
+w1723385047
+8PC.v
+FPC.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+n@p@c_@module
+vRegister_File
+R1
+!i10b 1
+!s100 od06fRig[X:9I^dRJf_nI3
+IUKSkiPbhG;ajhg?14;EC50
+R2
+R0
+w1723549764
+8Register_File.v
+FRegister_File.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+n@register_@file
+vSign_Extend
+R1
+!i10b 1
+!s100 6oFV>Knmnc<oBg]dA62G70
+IkSB[o>39l2><JWe78903z2
+R2
+R0
+w1723551454
+8Sign_Extend.v
+FSign_Extend.v
+L0 13
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+n@sign_@extend
+vSingle_Cycle_Top
+R1
+!i10b 1
+!s100 gXD>Bhcn76WT]QKX5C1OQ1
+IK;NBhd@[7NgLLjnb^b?ba3
+R2
+R0
+w1723552920
+8Single_Cycle_Top.v
+FSingle_Cycle_Top.v
+L0 12
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+n@single_@cycle_@top
+vSingle_Cycle_Top_Tb
+R1
+!i10b 1
+!s100 HY[:W5_k4XM]D?ge2C9Dm1
+I92I>OQ2GRHjlSoQXR5gQl3
+R2
+R0
+w1723549865
+8Single_Cycle_Top_Tb.v
+FSingle_Cycle_Top_Tb.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+n@single_@cycle_@top_@tb

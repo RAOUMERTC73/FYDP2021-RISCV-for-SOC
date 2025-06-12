@@ -1,0 +1,39 @@
+# vsim top_tb 
+# Start time: 20:23:13 on Sep 05,2024
+# Loading sv_std.std
+# Loading work.top_tb
+# Loading work.Pipeline_top
+# Loading work.fetch_cycle
+# Loading work.mux2
+# Loading work.flopenr
+# Loading work.imem
+# Loading work.adder
+# Loading work.flopenrc
+# Loading work.decode_cycle
+# Loading work.regfile
+# Loading work.extend
+# Loading work.floprc
+# Loading work.execute_cycle
+# Loading work.mux3
+# Loading work.alu
+# Loading work.flopr
+# Loading work.memory_cycle
+# Loading work.dmem
+# Loading work.writeback_cycle
+# Loading work.controller
+# Loading work.maindec
+# Loading work.aludec
+# Loading work.hazard
+add wave -position insertpoint sim:/top_tb/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Rao  Hostname: DESKTOP-SSF6FJQ  ProcessID: 13920
+#           Attempting to use alternate WLF file "./wlftct0kqe".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftct0kqe
+run -a
+# Simulation failed
+# ** Note: $stop    : top_tb.sv(34)
+#    Time: 305 ps  Iteration: 1  Instance: /top_tb
+# Break in Module top_tb at top_tb.sv line 34
+# End time: 20:25:00 on Sep 05,2024, Elapsed time: 0:01:47
+# Errors: 0, Warnings: 2

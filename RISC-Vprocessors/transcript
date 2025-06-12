@@ -1,0 +1,32 @@
+# vsim top_tb 
+# Start time: 18:22:26 on Jan 16,2025
+# Loading sv_std.std
+# Loading work.top_tb
+# Loading work.top
+# Loading work.riscvsingle
+# Loading work.controller
+# Loading work.maindec
+# Loading work.aludec
+# Loading work.datapath
+# Loading work.flopr
+# Loading work.adder
+# Loading work.mux2
+# Loading work.regfile
+# Loading work.extend
+# Loading work.alu
+# Loading work.mux3
+# Loading work.imem
+# Loading work.dmem
+add wave -position insertpoint sim:/top_tb/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Rao  Hostname: DESKTOP-SSF6FJQ  ProcessID: 13920
+#           Attempting to use alternate WLF file "./wlfti28rrb".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlfti28rrb
+run -all
+# Simulation succeeded
+# ** Note: $stop    : top_tb.sv(30)
+#    Time: 195 ps  Iteration: 1  Instance: /top_tb
+# Break in Module top_tb at top_tb.sv line 30
+# End time: 18:25:50 on Jan 16,2025, Elapsed time: 0:03:24
+# Errors: 0, Warnings: 2

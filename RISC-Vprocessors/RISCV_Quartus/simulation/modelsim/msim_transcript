@@ -1,0 +1,208 @@
+# Reading C:/intelFPGA_lite/17.0/modelsim_ase/tcl/vsim/pref.tcl
+# do top_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/17.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/Rao/Desktop/RISC-V\ Single\ Cycle\ Core\ in\ Verilog/RISC-Vprocessors/RISCV_Quartus {C:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus/top.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:47:47 on Aug 27,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus" C:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus/top.sv 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 02:47:47 on Aug 27,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Rao/Desktop/RISC-V\ Single\ Cycle\ Core\ in\ Verilog/RISC-Vprocessors/RISCV_Quartus {C:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus/adder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:47:48 on Aug 27,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus" C:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus/adder.sv 
+# -- Compiling module adder
+# 
+# Top level modules:
+# 	adder
+# End time: 02:47:48 on Aug 27,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Rao/Desktop/RISC-V\ Single\ Cycle\ Core\ in\ Verilog/RISC-Vprocessors/RISCV_Quartus {C:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus/alu.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:47:48 on Aug 27,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus" C:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus/alu.sv 
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# End time: 02:47:48 on Aug 27,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Rao/Desktop/RISC-V\ Single\ Cycle\ Core\ in\ Verilog/RISC-Vprocessors/RISCV_Quartus {C:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus/aludec.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:47:49 on Aug 27,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus" C:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus/aludec.sv 
+# -- Compiling module aludec
+# 
+# Top level modules:
+# 	aludec
+# End time: 02:47:49 on Aug 27,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Rao/Desktop/RISC-V\ Single\ Cycle\ Core\ in\ Verilog/RISC-Vprocessors/RISCV_Quartus {C:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus/controller.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:47:49 on Aug 27,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus" C:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus/controller.sv 
+# -- Compiling module controller
+# 
+# Top level modules:
+# 	controller
+# End time: 02:47:50 on Aug 27,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Rao/Desktop/RISC-V\ Single\ Cycle\ Core\ in\ Verilog/RISC-Vprocessors/RISCV_Quartus {C:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus/datapath.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:47:50 on Aug 27,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus" C:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus/datapath.sv 
+# -- Compiling module datapath
+# 
+# Top level modules:
+# 	datapath
+# End time: 02:47:50 on Aug 27,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Rao/Desktop/RISC-V\ Single\ Cycle\ Core\ in\ Verilog/RISC-Vprocessors/RISCV_Quartus {C:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus/dmem.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:47:50 on Aug 27,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus" C:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus/dmem.sv 
+# -- Compiling module dmem
+# 
+# Top level modules:
+# 	dmem
+# End time: 02:47:51 on Aug 27,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Rao/Desktop/RISC-V\ Single\ Cycle\ Core\ in\ Verilog/RISC-Vprocessors/RISCV_Quartus {C:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus/extend.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:47:51 on Aug 27,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus" C:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus/extend.sv 
+# -- Compiling module extend
+# 
+# Top level modules:
+# 	extend
+# End time: 02:47:51 on Aug 27,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Rao/Desktop/RISC-V\ Single\ Cycle\ Core\ in\ Verilog/RISC-Vprocessors/RISCV_Quartus {C:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus/flopr.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:47:52 on Aug 27,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus" C:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus/flopr.sv 
+# -- Compiling module flopr
+# 
+# Top level modules:
+# 	flopr
+# End time: 02:47:52 on Aug 27,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Rao/Desktop/RISC-V\ Single\ Cycle\ Core\ in\ Verilog/RISC-Vprocessors/RISCV_Quartus {C:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus/imem.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:47:52 on Aug 27,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus" C:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus/imem.sv 
+# -- Compiling module imem
+# 
+# Top level modules:
+# 	imem
+# End time: 02:47:53 on Aug 27,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Rao/Desktop/RISC-V\ Single\ Cycle\ Core\ in\ Verilog/RISC-Vprocessors/RISCV_Quartus {C:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus/maindec.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:47:53 on Aug 27,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus" C:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus/maindec.sv 
+# -- Compiling module maindec
+# 
+# Top level modules:
+# 	maindec
+# End time: 02:47:53 on Aug 27,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Rao/Desktop/RISC-V\ Single\ Cycle\ Core\ in\ Verilog/RISC-Vprocessors/RISCV_Quartus {C:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus/mux2.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:47:53 on Aug 27,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus" C:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus/mux2.sv 
+# -- Compiling module mux2
+# 
+# Top level modules:
+# 	mux2
+# End time: 02:47:54 on Aug 27,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Rao/Desktop/RISC-V\ Single\ Cycle\ Core\ in\ Verilog/RISC-Vprocessors/RISCV_Quartus {C:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus/mux3.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:47:54 on Aug 27,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus" C:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus/mux3.sv 
+# -- Compiling module mux3
+# 
+# Top level modules:
+# 	mux3
+# End time: 02:47:54 on Aug 27,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Rao/Desktop/RISC-V\ Single\ Cycle\ Core\ in\ Verilog/RISC-Vprocessors/RISCV_Quartus {C:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus/regfile.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:47:54 on Aug 27,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus" C:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus/regfile.sv 
+# -- Compiling module regfile
+# 
+# Top level modules:
+# 	regfile
+# End time: 02:47:54 on Aug 27,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/Rao/Desktop/RISC-V\ Single\ Cycle\ Core\ in\ Verilog/RISC-Vprocessors/RISCV_Quartus {C:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus/riscvsingle.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:47:55 on Aug 27,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus" C:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus/riscvsingle.sv 
+# -- Compiling module riscvsingle
+# 
+# Top level modules:
+# 	riscvsingle
+# End time: 02:47:55 on Aug 27,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/Rao/Desktop/RISC-V\ Single\ Cycle\ Core\ in\ Verilog/RISC-Vprocessors/RISCV_Quartus {C:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus/top_tb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:47:55 on Aug 27,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus" C:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus/top_tb.sv 
+# -- Compiling module top_tb
+# 
+# Top level modules:
+# 	top_tb
+# End time: 02:47:56 on Aug 27,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  top_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" top_tb 
+# Start time: 02:47:56 on Aug 27,2024
+# Loading sv_std.std
+# Loading work.top_tb
+# Loading work.top
+# Loading work.riscvsingle
+# Loading work.controller
+# Loading work.maindec
+# Loading work.aludec
+# Loading work.datapath
+# Loading work.flopr
+# Loading work.adder
+# Loading work.mux2
+# Loading work.regfile
+# Loading work.extend
+# Loading work.alu
+# Loading work.mux3
+# Loading work.imem
+# Loading work.dmem
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Simulation succeeded
+# ** Note: $stop    : C:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus/top_tb.sv(32)
+#    Time: 195 ps  Iteration: 1  Instance: /top_tb
+# Break in Module top_tb at C:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus/top_tb.sv line 32
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf {C:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/RISCV_Quartus/simulation/modelsim/wave.do}
+# End time: 03:00:38 on Aug 27,2024, Elapsed time: 0:12:42
+# Errors: 0, Warnings: 0

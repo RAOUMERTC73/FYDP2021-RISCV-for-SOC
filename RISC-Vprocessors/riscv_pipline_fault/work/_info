@@ -1,0 +1,633 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/Rao/Desktop/RISC-Vprocessors
+vadder
+Z0 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z1 !s110 1725549756
+!i10b 1
+!s100 [^><YO^n^zkH=KRT1]N=03
+IlaEUXjdFKc[[SD60iH4kO2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 !s105 Pipeline_top_sv_unit
+S1
+Z4 dC:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors/riscv_pipline
+w1723432117
+8adder.sv
+Fadder.sv
+L0 2
+Z5 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z6 !s108 1725549755.000000
+Z7 !s107 hazard.sv|floprc.sv|aludec.sv|maindec.sv|controller.sv|writeback_cycle.sv|dmem.sv|memory_cycle.sv|flopr.sv|alu.sv|mux3.sv|execute_cycle.sv|extend.sv|regfile.sv|decode_cycle.sv|flopenrc.sv|adder.sv|imem.sv|flopenr.sv|mux2.sv|fetch_cycle.sv|top_tb.sv|Pipeline_top.sv|
+Z8 !s90 Pipeline_top.sv|top_tb.sv|
+!i113 1
+Z9 tCvgOpt 0
+valu
+R0
+R1
+!i10b 1
+!s100 5m74n?=R6Dj[`dhdj87V60
+Ik`Xn2QM;VHa]PFiegaCc[1
+R2
+R3
+S1
+R4
+w1723432339
+8alu.sv
+Falu.sv
+L0 2
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R9
+valudec
+R0
+R1
+!i10b 1
+!s100 c?R>1U7;R^?[HnfH5Y5>D3
+IP6Xa0Vk@[>Pl0ZLd3oodJ1
+R2
+R3
+S1
+R4
+w1723431881
+8aludec.sv
+Faludec.sv
+L0 2
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R9
+vcontroller
+R0
+R1
+!i10b 1
+!s100 eWic9jkL1cVb=ofVD?KD[1
+IQ^V[eM]SGEFfIRl>z[kZB3
+R2
+R3
+S1
+R4
+w1725548343
+8controller.sv
+Fcontroller.sv
+L0 6
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R9
+vdatapath
+R0
+!s110 1725464628
+!i10b 1
+!s100 2<:;<m[9LV?TQDjAeVj`J0
+Ia`6Nj]HCg_01ACTo23;D]1
+R2
+Z10 !s105 top_sv_unit
+S1
+R4
+w1725455494
+8datapath.sv
+Fdatapath.sv
+L0 13
+R5
+r1
+!s85 0
+31
+!s108 1725464628.000000
+!s107 flopenrc.sv|flopenr.sv|alu.sv|extend.sv|regfile.sv|mux3.sv|mux2.sv|adder.sv|datapath.sv|flopr.sv|floprc.sv|aludec.sv|maindec.sv|controller.sv|dmem.sv|imem.sv|hazard.sv|top_tb.sv|top.sv|
+Z11 !s90 top.sv|top_tb.sv|
+!i113 1
+R9
+vdecode_cycle
+R0
+R1
+!i10b 1
+!s100 4jandHz[6JRh<zigRHizK1
+I3jjT4O3k^]<GfJ9_Sfc`o3
+R2
+R3
+S1
+R4
+w1725549584
+8decode_cycle.sv
+Fdecode_cycle.sv
+L0 5
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R9
+vdmem
+R0
+R1
+!i10b 1
+!s100 PCe`2`hN07oz`bf[77k5;2
+IzhiDb]1=k;;Jz@A@k<?N^1
+R2
+R3
+S1
+R4
+w1724263464
+8dmem.sv
+Fdmem.sv
+L0 3
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R9
+vexecute_cycle
+R0
+R1
+!i10b 1
+!s100 XaV5RzdU0]U]UToY;l?1`1
+IOGRd8AToKnFU`bUn7;oG]3
+R2
+R3
+S1
+R4
+w1725533787
+8execute_cycle.sv
+Fexecute_cycle.sv
+L0 7
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R9
+vextend
+R0
+R1
+!i10b 1
+!s100 G=4V@nMnJL?MG7QGzFSoH1
+I66^WPd_RYc[jRl;<S2oMz3
+R2
+R3
+S1
+R4
+w1723432151
+8extend.sv
+Fextend.sv
+L0 2
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R9
+vfetch_cycle
+R0
+R1
+!i10b 1
+!s100 >3@^:4Az;XCP=29nO`PL00
+I7Ki>M];@6XMGaI_f9SDQz3
+R2
+R3
+S1
+R4
+w1725549313
+8fetch_cycle.sv
+Ffetch_cycle.sv
+L0 7
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R9
+vflopenr
+R0
+Z12 !s110 1725549755
+!i10b 1
+!s100 [mSiZIY>^:]C2U:gA^8@e3
+IJNm4?4kN_DcfEh=aEUga_1
+R2
+R3
+S1
+R4
+w1725545607
+8flopenr.sv
+Fflopenr.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R9
+vflopenrc
+R0
+R1
+!i10b 1
+!s100 cld53@A7e:DMZ;lM>:_zK2
+I8A7nFhgfRA3d^iV9C?cA23
+R2
+R3
+S1
+R4
+w1725442994
+8flopenrc.sv
+Fflopenrc.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R9
+vflopr
+R0
+R1
+!i10b 1
+!s100 9[K5iH<0RM>KeiSaCQA7l3
+If:X0Ao<MfJ4Yan7KVmDE90
+R2
+R3
+S1
+R4
+w1723432184
+8flopr.sv
+Fflopr.sv
+L0 2
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R9
+vfloprc
+R0
+R1
+!i10b 1
+!s100 ;edKl2UW^nHTP:Mo=Je9I3
+Ib3JeYmiRDlzj=SPU?iGcQ2
+R2
+R3
+S1
+R4
+w1725535535
+8floprc.sv
+Ffloprc.sv
+L0 18
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R9
+vfloprC
+R0
+!s110 1725455441
+!i10b 1
+!s100 cdkg4J3[PLXK0jE`eTMb@0
+IYfeVXBHVDi5IC2;mf=4Sd1
+R2
+R10
+S1
+R4
+w1725455386
+8floprC.sv
+FfloprC.sv
+L0 1
+R5
+r1
+!s85 0
+31
+!s108 1725455440.000000
+!s107 flopenrc.sv|flopenr.sv|floprC.sv|alu.sv|extend.sv|regfile.sv|mux3.sv|mux2.sv|adder.sv|flopr.sv|datapath.sv|controller.sv|dmem.sv|imem.sv|hazard.sv|top_tb.sv|top.sv|
+R11
+!i113 1
+R9
+nflopr@c
+vhazard
+R0
+R1
+!i10b 1
+!s100 S^o3KT;j?48fc[VSlB6kY3
+I<FV41MaUCQNezY^W8hz?c2
+R2
+R3
+S1
+R4
+w1725548053
+8hazard.sv
+Fhazard.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R9
+vimem
+R0
+R1
+!i10b 1
+!s100 LP74aR`NCC1l1S:lQKWFF3
+I0n:J3Q_jT043F0cDfLdnk1
+R2
+R3
+S1
+R4
+w1723432718
+8imem.sv
+Fimem.sv
+L0 3
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R9
+vmaindec
+R0
+R1
+!i10b 1
+!s100 ]5?3VFTW1VC0`2:G]F0_U2
+IcI@:jX18MHLK?Ql8c;nZS1
+R2
+R3
+S1
+R4
+w1723431841
+8maindec.sv
+Fmaindec.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R9
+vmemory_cycle
+R0
+R1
+!i10b 1
+!s100 Q>1bO@6?6IPkoimP`oVOe3
+IBQBAEEjSDSR7?CRhF6C8O3
+R2
+R3
+S1
+R4
+w1725533600
+8memory_cycle.sv
+Fmemory_cycle.sv
+L0 4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R9
+vmux2
+R0
+R12
+!i10b 1
+!s100 d9YHRYR=@L8WT[@aMQTbO0
+ILS::^;TIoc8U9mNmZ84Pn0
+R2
+R3
+S1
+R4
+w1723432209
+8mux2.sv
+Fmux2.sv
+L0 2
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R9
+vmux3
+R0
+R1
+!i10b 1
+!s100 e;C2AbGbiRCYeSgERa<XS3
+IP91dAZe7B]1ik4gZL`;I;3
+R2
+R3
+S1
+R4
+w1723432235
+8mux3.sv
+Fmux3.sv
+L0 3
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R9
+vPipeline_top
+R0
+R1
+!i10b 1
+!s100 @R<SAaclL9[[PZVmi9l3`3
+I98gCWfGWkGl=D5@UDe7BK2
+R2
+R3
+S1
+R4
+w1725549716
+8Pipeline_top.sv
+FPipeline_top.sv
+L0 9
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R9
+n@pipeline_top
+vregfile
+R0
+R1
+!i10b 1
+!s100 2FP[gV1DeLl:Ainc96fAQ0
+Ihc;QiNlBaKR>8_D73@jZl0
+R2
+R3
+S1
+R4
+w1723432084
+8regfile.sv
+Fregfile.sv
+L0 2
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R9
+vriscvsingle
+R0
+!s110 1724702705
+!i10b 1
+!s100 YKk4bW__hRZ]Q6b=z>d3L2
+Id4lXFg<=FZSzmh`YU_W^f3
+R2
+R10
+S1
+dC:/Users/Rao/Desktop/RISC-V Single Cycle Core in Verilog/RISC-Vprocessors
+w1723433570
+8riscvsingle.sv
+Friscvsingle.sv
+L0 85
+R5
+r1
+!s85 0
+31
+!s108 1724702704.000000
+!s107 dmem.sv|imem.sv|alu.sv|extend.sv|regfile.sv|mux3.sv|mux2.sv|adder.sv|flopr.sv|datapath.sv|aludec.sv|maindec.sv|controller.sv|riscvsingle.sv|top_tb.sv|top.sv|
+R11
+!i113 1
+R9
+vtop
+R0
+!s110 1725467148
+!i10b 1
+!s100 XkHd9Dhg@GLC]?AK:>aI32
+IaWB`^kCaBaM=Z6Q_j=4Fd3
+R2
+R10
+S1
+R4
+w1725467143
+8top.sv
+Ftop.sv
+L0 8
+R5
+r1
+!s85 0
+31
+!s108 1725467148.000000
+!s107 flopr.sv|floprc.sv|aludec.sv|maindec.sv|controller.sv|dmem.sv|imem.sv|hazard.sv|top_tb.sv|top.sv|
+R11
+!i113 1
+R9
+vtop_tb
+R0
+R1
+!i10b 1
+!s100 @z4QQJGDXXiS6[]hFfnP21
+IWjI@kTX69QoR2z]`0lbjM1
+R2
+!s105 top_tb_sv_unit
+S1
+R4
+w1725545295
+8top_tb.sv
+Ftop_tb.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R9
+vwriteback_cycle
+R0
+R1
+!i10b 1
+!s100 Oa5ODB9]YIOO>1JCXZ6jn0
+I^e^h@nBIidcQSA?eY==RV0
+R2
+R3
+S1
+R4
+w1725533579
+8writeback_cycle.sv
+Fwriteback_cycle.sv
+L0 3
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 1
+R9
