@@ -4,6 +4,8 @@
  Final Year Design Project – Telecommunication Engineering TC-431 
  NED University of Engineering & Technology  
  GitHub: [RAOUMERTC73](https://github.com/RAOUMERTC73)
+ GitHub: [kashaf619](https://github.com/kashaf619/FYDP-11-2021-RISC-V-SoC-for-Communication)
+
 
 # RISC-V System-on-Chip (SoC) for Communication
 
